@@ -1,0 +1,43 @@
+# OpenClaw workspace gitignore
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Cache
+.cache/
+.clawhub/
+
+# Private data (nếu có)
+*.secret
+*.key
+config/private/
+
+# Large files
+*.tar.gz
+*.zip
+
+# Keep these important files
+!SOUL.md
+!MEMORY.md
+!improvement_log.md
+!USER.md
+!AGENTS.md
+!IDENTITY.md
+!BOOTSTRAP.md
+!TOOLS.md
+!HEARTBEAT.md
+!skills/

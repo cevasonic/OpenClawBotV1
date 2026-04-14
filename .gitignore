@@ -41,3 +41,4 @@ config/private/
 !TOOLS.md
 !HEARTBEAT.md
 !skills/
+client_secret.json

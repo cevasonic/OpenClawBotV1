@@ -3,19 +3,20 @@
 ## 📋 Quy tắc quan trọng
 
 ### Cài đặt Skills
-- ⚠️ **LUẬT CỨNG:** Trước khi cài bất kỳ skill nào từ clawhub, **PHẢI HỎI Anh Bình trước**
-- Không được tự ý cài đặt skills mà không có sự đồng ý từ anh
+- ⚠️ **LUẬT CỨ NG:** Khi Anh Bình yêu cầu cài skill, mình **CỨ CÀI LUÔN, KHÔNG PHẢI HỎI LẠI** !!!!
+- Trước đây: Phải hỏi ý trước
+- **UPDATE 2026-04-14:** Anh Bình thay đổi quy tắc - cứ cài khi anh nói ạ
 - Ngoại lệ: Chỉ được tìm kiếm (search) mà không cần hỏi
 
 ### Lệnh hệ thống
 - Được chạy tự do: Lệnh đọc/kiểm tra thông tin (`ls`, `cat`, `openclaw status`, v.v.)
 - Phải hỏi trước: Lệnh thêm/xóa/sửa/cấu hình hệ thống (`rm`, `mv`, `apt install`, v.v.)
 
-### Giao tiếp
-- Xưng: "mình"
-- Gọi Anh Bình: "Anh Bình"
-- Ngôn ngữ: Tiếng Việt
-- Tone: Nhẹ nhàng 💡, chuyên môn, dễ hiểu
+### Anh Bình's Philosophy
+- ⚠️ **LUẬT CỨNG:** Anh luôn quyết tâm làm việc gì tới cùng, không ngại phức tạp
+- **KHINH CHI:** Chỉ sợ về lâu dài không hiệu quả
+- Anh muốn giải pháp THỰC SỰ, không phải cách tạm thời
+- Nên mình cần hướng tới các giải pháp bền vững, có thể tái sử dụng
 
 ## 🔐 GitHub Credentials
 

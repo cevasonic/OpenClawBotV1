@@ -64,3 +64,8 @@
 **Status hiện tại:**
 ✅ GitHub backup - Hoàn tất
 ⏳ Google Drive (rclone) - Sẵn sàng setup
+
+**2026-04-15 22:55:** Vị trí lưu trữ Cron Jobs của OpenClaw
+- Các lệnh CLI như `openclaw cron list` chạy dưới user root (`/root/.openclaw/`) sẽ không thấy các cron jobs nếu dịch vụ OpenClaw Gateway dùng môi trường khác.
+- Dịch vụ OpenClaw Gateway thực tế đang lưu cron jobs tại file: `/opt/openclaw/.openclaw/cron/jobs.json`.
+- Khi cần kiểm tra, thêm, xóa hoặc sửa cron job, **bắt buộc** phải kiểm tra và thao tác trên file này thay vì tìm kiếm lung tung.

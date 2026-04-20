@@ -1,0 +1,13 @@
+{
+  "connection_id": "96ed0b07-1913-405a-a5e2-a60051e091d8",
+  "api_key": "*** configured via env ***",
+  "setup_date": "2026-04-19T10:50:00",
+  "workspace_url": "https://gateway.maton.ai/notion/v1",
+  "status": "active",
+  "workspace_page_id": "3476c4cf-8b83-8148-8ddc-d86b1c98f055",
+  "databases": {
+    "meetings": "dd28844d-60f5-473c-8207-e51a7ea68cdb",
+    "tasks": "dc5761f3-6911-45ae-b17d-68052451447c",
+    "notes": "ce83950e-bc57-4e96-813d-e00b2a66b968"
+  }
+}

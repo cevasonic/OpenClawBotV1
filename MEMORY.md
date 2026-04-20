@@ -35,6 +35,41 @@
 
 ---
 
+## 📍 Vị trí hiện tại
+
+- **Thành phố:** Tây Ninh
+- **Cập nhật:** 2025-06-17
+
+---
+
+## 💼 Vai trò Thư ký Công việc
+
+**Kênh Zalo chính** đã được chuyển thành kênh Thư ký công việc từ 2025-06-17.
+
+### Trách nhiệm:
+- Tổng hợp công việc từ các nguồn
+- Nhắc việc theo lịch/task
+- Theo dõi tiến độ và deadline
+
+---
+
+## 📅 Sự kiện sắp tới
+
+| Ngày | Sự kiện | Trạng thái |
+|------|----------|------------|
+| 21/04/2026 | Cuộc họp VNPT - UBND xã Cần Giuộc | 🟡 Đang chuẩn bị |
+
+---
+
+## 📋 Công việc cần làm
+
+### Cuộc họp VNPT với UBND xã Cần Giuộc
+- **Ngày:** Thứ 3, 21/04/2026
+- **File:** [`meetings/2025-04-21_VNPT_CongAnXa_Cangiuoc.md`](meetings/2025-04-21_VNPT_CongAnXa_Cangiuoc.md)
+- **Trạng thái:** Đang chuẩn bị hồ sơ và tài liệu
+
+---
+
 ## 📅 Lịch sử quyết định
 
 **2026-04-13 21:39:** Anh Bình nhắc nhở quy tắc cài skill - phải hỏi ý trước khi cài

@@ -1,0 +1,22 @@
+categories:
+- Ăn sáng
+- Ăn trưa
+- Cafe
+- Xăng xe
+- Điện thoại
+- Mua sắm
+- Giải trí
+- Học tập
+- Y tế
+- Khác
+- Test
+currency: VNĐ
+date_format: '%Y-%m-%d'
+paths:
+  daily: daily/
+  summaries: summaries/
+sources:
+- Cơ quan
+- Cá nhân
+- Dự án
+- Khác

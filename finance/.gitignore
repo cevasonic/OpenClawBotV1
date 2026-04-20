@@ -1,0 +1,11 @@
+# Gitignore cho hệ thống tài chính
+# Bỏ qua các file tạm/log không cần commit
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db

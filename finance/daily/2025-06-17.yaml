@@ -1,0 +1,26 @@
+date: '2025-06-17'
+expenses:
+- time: 08:00
+  category: Ăn sáng
+  amount: 150000
+  source: Cơ quan
+- time: 09:00
+  category: Cafe
+  amount: 84000
+  source: Cơ quan
+- time: '12:00'
+  category: Ăn trưa
+  amount: 165000
+  source: Cơ quan
+- time: '14:00'
+  category: Test
+  amount: 50000
+  source: Cá nhân
+  note: Thử nghiệm
+- time: '15:00'
+  category: Cafe
+  amount: 30000
+  source: Cơ quan
+  note: Ca chiều
+total: 479000
+note: Chi tiêu tại cơ quan/công sở

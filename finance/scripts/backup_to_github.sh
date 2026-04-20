@@ -30,7 +30,7 @@ if git diff --cached --quiet; then
     echo "✅ Không có thay đổi nào trong dữ liệu chi tiêu."
 else
     git commit -m "$COMMIT_MSG"
-    git push origin main
+    git push
     echo "✅ Đã backup dữ liệu chi tiêu lên GitHub."
 fi
 

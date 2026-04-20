@@ -104,3 +104,9 @@
 - Các lệnh CLI như `openclaw cron list` chạy dưới user root (`/root/.openclaw/`) sẽ không thấy các cron jobs nếu dịch vụ OpenClaw Gateway dùng môi trường khác.
 - Dịch vụ OpenClaw Gateway thực tế đang lưu cron jobs tại file: `/opt/openclaw/.openclaw/cron/jobs.json`.
 - Khi cần kiểm tra, thêm, xóa hoặc sửa cron job, **bắt buộc** phải kiểm tra và thao tác trên file này thay vì tìm kiếm lung tung.
+
+**2026-06-17:** Quy trình làm việc phát triển tính năng mới
+- Khi phát triển chức năng/tính năng/skill mới: Trước tiên phác thảo ý tưởng lên file `.md` (ví dụ: `finance.md`, `skill.md`).
+- Mỗi lần có hướng mới/ý tưởng mới: Lôi file `.md` đó ra và chỉnh sửa bổ sung liên tục.
+- Chỉ khi file `.md` hoàn tất (đã rõ ràng, đầy đủ) thì mới bắt đầu build thành sản phẩm hoàn chỉnh.
+- **Ưu điểm:** Dễ theo dõi tiến độ, dễ chỉnh sửa, tránh code sớm quá khi ý tưởng chưa ổn định.

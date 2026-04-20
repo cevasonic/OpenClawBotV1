@@ -22,5 +22,9 @@ expenses:
   amount: 30000
   source: Cơ quan
   note: Ca chiều
-total: 479000
+- time: '19:00'
+  category: Ăn tối
+  amount: 145000
+  source: Cơ quan
+total: 624000
 note: Chi tiêu tại cơ quan/công sở

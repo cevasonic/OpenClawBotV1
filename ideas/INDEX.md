@@ -11,7 +11,8 @@ Thư mục này lưu trữ các ý tưởng phác thảo cho những tính năng
 | Tên File | Tiêu đề | Trạng thái | Mô tả | Cập nhật |
 |----------|---------|------------|-------|----------|
 | [finance-system.md](finance-system.md) | Hệ thống theo dõi chi tiêu | ✅ **Hoàn thành** | Hệ thống quản lý chi tiêu cá nhân với tổng hợp ngày/tuần/tháng, phân nguồn | 2025-06-17 |
-| [todo-list.md](todo-list.md) | Ứng dụng Todo List | 🟡 **Đang phát triển** | Ứng dụng quản lý công việc với priority, tag, deadline | 2025-06-17 |
+| [shared-context-system.md](shared-context-system.md) | Shared Context System | 🟡 **Đang phát triển** | Hệ thống chia sẻ ngữ cảnh giữa Zalo/Telegram qua structured memory + AI daily summary | 2025-06-17 |
+| [todo-list.md](todo-list.md) | Ứng dụng Todo List | ⚪ **Draft** | Ứng dụng quản lý công việc với priority, tag, deadline | 2025-06-17 |
 | [weather-bot.md](weather-bot.md) | Bot dự báo thời tiết | ⚪ **Draft** | Bot thông báo thời tiết hàng ngày, cảnh báo mưa/lũ | - |
 | [web-scraper.md](web-scraper.md) | Tool cào dữ liệu web | ⚪ **Draft** | Công cụ scraping với Scrapling, xử lý Cloudflare | - |
 

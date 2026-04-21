@@ -208,6 +208,12 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
 
+## 📦 Installed Skills
+
+- **andrej-karpathy-skills** (GitHub: forrestchang/andrej-karpathy-skills)
+  - Triết lý coding của Andrej Karpathy đã được merge vào `SOUL.md`
+  - Các nguyên tắc: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution
+
 ## Knowledge Protocol (ByteRover)
 This agent uses ByteRover (`brv`) as its long-term structured memory.
 You MUST use this for gathering contexts before any work. This is a Knowledge management for AI agents. Use `brv` to store and retrieve project patterns, decisions, and architectural rules in .brv/context-tree.

@@ -38,7 +38,7 @@
 ## 📍 Vị trí hiện tại
 
 - **Thành phố:** Tây Ninh
-- **Cập nhật:** 2025-06-17
+- **Cập nhật:** 2026-04-21
 
 ---
 
@@ -50,14 +50,6 @@
 - Tổng hợp công việc từ các nguồn
 - Nhắc việc theo lịch/task
 - Theo dõi tiến độ và deadline
-
----
-
-## 📅 Sự kiện sắp tới
-
-| Ngày | Sự kiện | Trạng thái |
-|------|----------|------------|
-| 21/04/2026 | Cuộc họp VNPT - UBND xã Cần Giuộc | 🟡 Đang chuẩn bị |
 
 ---
 
@@ -81,25 +73,6 @@
 - Cài đặt .gitignore để bỏ qua file không cần thiết
 - Sẵn sàng restore trên OpenClaw khác lúc nào cần
 
-**2026-04-13 23:50:** Setup Google Drive OAuth qua gog CLI
-- Cài gog CLI từ source thành công (v0.12.0-dev)
-- Thêm redirect URI: https://ntbinh.tino.page/oauth2/callback
-- Đang xác thực qua domain của Anh Bình
-- Client ID: 11969482380-pqhbu1d3cameps8tthv16kqmjkd1j3uk.apps.googleusercontent.com
-
-**2026-04-14 00:46:** Anh Bình đổi OAuth Client từ Web app sang Desktop app
-- Download file client_secret.json mới (Desktop app)
-- Setup gog lại với Desktop app credentials
-- Xác thực 2 lần nhưng vẫn gặp lỗi:
-  - Lần 1: Keyring password issue (backend = file)
-  - Lần 2: Timeout (context deadline exceeded)
-- **Kết luận:** gog OAuth vẫn không hoạt động
-- **Quyết định:** Chuyển sang rclone để backup
-
-**Status hiện tại:**
-✅ GitHub backup - Hoàn tất
-⏳ Google Drive (rclone) - Sẵn sàng setup
-
 **2026-04-15 22:55:** Vị trí lưu trữ Cron Jobs của OpenClaw
 - Các lệnh CLI như `openclaw cron list` chạy dưới user root (`/root/.openclaw/`) sẽ không thấy các cron jobs nếu dịch vụ OpenClaw Gateway dùng môi trường khác.
 - Dịch vụ OpenClaw Gateway thực tế đang lưu cron jobs tại file: `/opt/openclaw/.openclaw/cron/jobs.json`.
@@ -110,3 +83,8 @@
 - Mỗi lần có hướng mới/ý tưởng mới: Lôi file `.md` đó ra và chỉnh sửa bổ sung liên tục.
 - Chỉ khi file `.md` hoàn tất (đã rõ ràng, đầy đủ) thì mới bắt đầu build thành sản phẩm hoàn chỉnh.
 - **Ưu điểm:** Dễ theo dõi tiến độ, dễ chỉnh sửa, tránh code sớm quá khi ý tưởng chưa ổn định.
+
+## 💰 Quản lý Tài chính & Chi tiêu
+- **LUẬT CỨNG:** Toàn bộ dữ liệu thu chi, chi tiêu hàng ngày BẮT BUỘC phải lưu trữ theo hệ thống trong thư mục `finance/`. 
+- **TUYỆT ĐỐI KHÔNG** ghi tạm vào các file memory ngày (`memory/YYYY-MM-DD.md`) hay tự tạo file lẻ (như `chi_tieu_ngay_hom_nay.md`).
+- **Cách nhập liệu:** Tự động gọi script `python finance/scripts/add_expense.py` với tham số đúng theo mẫu trong file `/root/.openclaw/workspace/finance/README.md`. Bắt buộc đọc file `README.md` này trước mỗi khi anh Bình yêu cầu nhập dữ liệu chi tiêu nếu không nhớ cú pháp lệnh.

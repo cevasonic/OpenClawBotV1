@@ -1,0 +1,8 @@
+date: '2025-04-22'
+expenses:
+- time: 08:00
+  category: Ăn sáng
+  amount: 60000
+  source: Cơ quan
+  note: Ăn sáng sáng nay
+total: 60000

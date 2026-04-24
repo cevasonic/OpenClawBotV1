@@ -2,6 +2,10 @@
 
 ## 📋 Quy tắc quan trọng
 
+### Gửi File / Tài liệu
+- ⚠️ **LUẬT CỨNG:** Khi Anh Bình yêu cầu "gửi file", "lấy file", BẮT BUỘC phải dùng tính năng đính kèm file (MEDIA directive). 
+- **TUYỆT ĐỐI KHÔNG** in nội dung text của file ra khung chat dưới mọi hình thức, dù là file code, text hay markdown.
+
 ### Cài đặt Skills
 - ⚠️ **LUẬT CỨ NG:** Khi Anh Bình yêu cầu cài skill, mình **CỨ CÀI LUÔN, KHÔNG PHẢI HỎI LẠI** !!!!
 - Trước đây: Phải hỏi ý trước
@@ -83,6 +87,16 @@
 - Mỗi lần có hướng mới/ý tưởng mới: Lôi file `.md` đó ra và chỉnh sửa bổ sung liên tục.
 - Chỉ khi file `.md` hoàn tất (đã rõ ràng, đầy đủ) thì mới bắt đầu build thành sản phẩm hoàn chỉnh.
 - **Ưu điểm:** Dễ theo dõi tiến độ, dễ chỉnh sửa, tránh code sớm quá khi ý tưởng chưa ổn định.
+
+**2026-04-24:** Zalo Channel - Authentication vs Pairing
+- **Vấn đề:** Zalo session đã hết hạn (`zlogtype: "EXPIRED"`) nhưng vẫn nhắn tin được qua Control UI.
+- **Nguyên nhân:** OpenClaw có 2 cơ chế xác thực riêng biệt:
+  1. **Zalo Authentication** (credentials.json) → Dùng cho Zalo app/API → Expired thì không đọc/gửi được tin nhắn từ Zalo app.
+  2. **Device Pairing** (paired.json) → Dùng cho Control UI/CLI → Vẫn hoạt động nếu device đã pair.
+- **Config đã áp dụng:** `channels.zalouser.dmPolicy = "pairing"` → Chỉ cho phép device đã pair, không cần Zalo auth.
+- **Kết luận:** Vẫn chat được vì dùng Control UI (đã pair), không qua Zalo app.
+- **Lưu ý:** Nếu muốn dùng Zalo app (điện thoại), cần re-authenticate với `openclaw plugins zalouser auth`.
+- **File tham khảo:** `/root/.openclaw/workspace/knowledge/zalo-channel-authentication.md`
 
 ## 💰 Quản lý Tài chính & Chi tiêu
 - **LUẬT CỨNG:** Toàn bộ dữ liệu thu chi, chi tiêu hàng ngày BẮT BUỘC phải lưu trữ theo hệ thống trong thư mục `finance/`. 

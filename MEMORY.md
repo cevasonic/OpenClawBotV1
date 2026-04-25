@@ -59,11 +59,6 @@
 
 ## 📋 Công việc cần làm
 
-### Cuộc họp VNPT với UBND xã Cần Giuộc
-- **Ngày:** Thứ 3, 21/04/2026
-- **File:** [`meetings/2025-04-21_VNPT_CongAnXa_Cangiuoc.md`](meetings/2025-04-21_VNPT_CongAnXa_Cangiuoc.md)
-- **Trạng thái:** Đang chuẩn bị hồ sơ và tài liệu
-
 ---
 
 ## 📅 Lịch sử quyết định

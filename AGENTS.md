@@ -214,3 +214,12 @@ This is a starting point. Add your own conventions, style, and rules as you figu
   - Triết lý coding của Andrej Karpathy đã được merge vào `SOUL.md`
   - Các nguyên tắc: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution
 
+## 🖥️ Skill Output Formatting
+
+For skills that display tabular data (like `tinhtien`), use clear formatting:
+  - Model name on its own line
+  - Indented line with: `Cost`, `%`, `Req` (e.g., `$2.94249, 53.1%, 1,521`)
+  - Group low-activity items (≤20 requests) into "Model khác"
+  - Sort by Cost descending
+  - Keep output readable and easy to scan
+

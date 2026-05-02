@@ -55,15 +55,39 @@ for e in data:
 total_cost = sum(m['cost'] for m in models.values())
 total_usage = $TOTAL_USAGE
 
-print('📋 CHI TIẾT THEO MODEL (30 ngày gần nhất)')
-print(f'{\"Model\":<40} {\"Cost\":>10} {\"%\":>6} {\"Req\":>6} {\"Prompt Tokens\":>15} {\"Comp Tokens\":>15}')
-print('-' * 100)
+# Filter models with >20 requests and group others
+filtered_models = {}
+other_cost = 0
+other_requests = 0
 
-for model, m in sorted(models.items(), key=lambda x: -x[1]['cost']):
+for model, m in models.items():
+    if m['requests'] > 20:
+        filtered_models[model] = m
+    else:
+        other_cost += m['cost']
+        other_requests += m['requests']
+
+# Add 'Model khác' if there are any models with <=20 requests
+if other_requests > 0:
+    filtered_models['Model khác'] = {'cost': other_cost, 'requests': other_requests}
+
+# Sort by cost descending
+sorted_models = sorted(filtered_models.items(), key=lambda x: -x[1]['cost'])
+
+print('📋 CHI TIẾT THEO MODEL (30 ngày gần nhất)')
+print('-' * 40)
+
+for model, m in sorted_models:
     cost = m['cost']
+    requests = m['requests']
     pct = (cost / total_cost * 100) if total_cost > 0 else 0
     paid_icon = '💰' if cost > 0 else '🆓'
-    print(f'{paid_icon} {model:<38} \${cost:<8.5f} {pct:>5.1f}% {m[\"requests\"]:>6} {m[\"prompt_tokens\"]:>15,} {m[\"completion_tokens\"]:>15,}')
+    model_display = f'{paid_icon} {model}'
+    print(model_display)
+    # Format cost with dollar sign and 5 decimal places, left-aligned in 10 chars
+    cost_str = f'\${cost:<9.5f}'
+    print(f'    {cost_str}   {pct:>5.1f}%   {requests:>8,}')
+    print()
 
 print()
 print(f'📊 Tổng activity: \${total_cost:.5f}')

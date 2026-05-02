@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-02T10:07:25.829Z",
+  "entries": {
+    "memory:memory/2026-04-13.md:159:223": {
+      "key": "memory:memory/2026-04-13.md:159:223",
+      "path": "memory/2026-04-13.md",
+      "startLine": 159,
+      "endLine": 223,
+      "source": "memory",
+      "snippet": "## Conversation Summary assistant: <final> Dạ, mình có thể tạo skill được ạ. Mình sử dụng skill `skill-creator` để tạo, chỉnh sửa, cải thiện hoặc kiểm tra các AgentSkill. Anh muốn mình tạo skill gì cho anh? Anh có thể cho mình biết: - Tên skill - Mục đích/chức năng của skill đó - Các lệnh hoặc công cụ mà skill cần sử dụng Mình sẽ tạo ngay cho anh nhé! </final> user: Conversation info (untrusted metadata): ```json { \"message_id\": \"196\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-13 21:21 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Vậ",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45236728787422176,
+      "maxScore": 0.45236728787422176,
+      "firstRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "queryHashes": [
+        "64bd05d89142"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "skill-creator",
+        "đích/chức",
+        "message-id",
+        "sender-id",
+        "conversation",
+        "summary",
+        "assistant",
+        "final"
+      ]
+    },
+    "memory:memory/2026-04-15.md:822:837": {
+      "key": "memory:memory/2026-04-15.md:822:837",
+      "path": "memory/2026-04-15.md",
+      "startLine": 822,
+      "endLine": 837,
+      "source": "memory",
+      "snippet": "Anh yên tâm làm việc, cứ đến tối là em sẽ tự tổng hợp và báo cáo cho anh Bình nhé! 💡 user: System (untrusted): [2026-04-15 19:29:15 GMT+7] Exec completed (faint-ha, code 0) :: -token <token> Gateway token (if required) --tools <csv> Comma-separated tool allow-list (e.g. exec,read,write) --tz <iana> Timezone for cron expressions (IANA) (default: \"\") --ur… System (untrusted): [2026-04-15 19:29:53 GMT+7] Exec completed (ember-ha, code 0) :: \"updatedAtMs\": 1776256181336, \"schedule\": { \"kind\": \"cron\", \"expr\": \"30 19 * * *\", \"tz\": \"Asia/Saigon\" }, \"sessionTarget\": \"isolated\", \"wakeMode\": \"now\", \"payload\": { \"kind\": \"age… An async command you ran earlier has completed. The result is shown in the",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4496648520231247,
+      "maxScore": 0.4496648520231247,
+      "firstRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "queryHashes": [
+        "64bd05d89142"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "faint-ha",
+        "comma-separated",
+        "allow-list",
+        "e.g",
+        "ember-ha",
+        "asia/saigon",
+        "anh"
+      ]
+    },
+    "memory:memory/2026-04-20.md:212:246": {
+      "key": "memory:memory/2026-04-20.md:212:246",
+      "path": "memory/2026-04-20.md",
+      "startLine": 212,
+      "endLine": 246,
+      "source": "memory",
+      "snippet": "user: System (untrusted): [2026-04-15 22:53:50 GMT+7] Exec completed (fresh-bi, code 0) :: patch fields) enable Enable a cron job help Display help for command list List cron jobs rm Remove a cron job run Run a cron job now (debug) runs Show cron run history (JSONL-back… An async command you ran earlier has completed. The result is shown in the system messages above. Handle the result internally. Do not relay it to the user unless explicitly requested. Current time: Wednesday, April 15th, 2026 - 10:53 PM (Asia/Saigon) / 2026-04-15 15:53 UTC assistant: Mình tìm thấy rồi ạ 💡. Hệ thống đang lưu các cron trong file của gateway tại `opt/openclaw/.openclaw/cron/jobs.json`, đây là lý do lệnh cli",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4494784742593765,
+      "maxScore": 0.4494784742593765,
+      "firstRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "queryHashes": [
+        "64bd05d89142"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "gateway",
+        "fresh-bi",
+        "jsonl-back",
+        "asia/saigon",
+        "opt/openclaw",
+        "openclaw/cron/jobs.json",
+        "user",
+        "system"
+      ]
+    },
+    "memory:memory/2026-04-20.md:90:126": {
+      "key": "memory:memory/2026-04-20.md:90:126",
+      "path": "memory/2026-04-20.md",
+      "startLine": 90,
+      "endLine": 126,
+      "source": "memory",
+      "snippet": "Giờ mình bắt đầu xem vụ Zalo cho anh nhé. Anh có thể nói cụ thể hơn là Zalo đang gặp vấn đề gì hoặc anh cần mình kiểm tra phần nào không? user: ## ByteRover Onboarding Required ByteRover long-term memory was just installed but the user has NOT been onboarded yet. You MUST read the onboarding guide at `/root/.openclaw/extensions/byterover-onboarding/onboarding-prompt.md` and follow it IMMEDIATELY. Proactively greet the user and guide them through onboarding BEFORE doing anything else. Do NOT wait for the user to ask about ByteRover — YOU initiate the onboarding conversation. System (untrusted): [2026-04-20 15:28:59 GMT+7] Exec failed (kind-gul, signal SIGKILL) :: Thinking... System (untru",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4484115064144134,
+      "maxScore": 0.4484115064144134,
+      "firstRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "queryHashes": [
+        "64bd05d89142"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "long-term",
+        "kind-gul",
+        "giờ",
+        "mình",
+        "bắt",
+        "đầu",
+        "xem",
+        "zalo"
+      ]
+    },
+    "memory:memory/2026-04-13.md:1:41": {
+      "key": "memory:memory/2026-04-13.md:1:41",
+      "path": "memory/2026-04-13.md",
+      "startLine": 1,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "--- Gộp từ các session nhỏ --- # Session: 2026-04-13 02:37:53 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: 219c9df3-156b-43d9-a704-7e7828bb891c - **Source**: telegram ## Conversation Summary user: Conversation info (untrusted metadata): ```json { \"message_id\": \"69\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-13 09:10 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` hi # Session: 2026-04-13 02:46:57 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: ba6b8e79-fbaa-4b06-9a81-128",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.44699886143207546,
+      "maxScore": 0.44699886143207546,
+      "firstRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "queryHashes": [
+        "64bd05d89142"
+      ],
+      "recallDays": [
+        "2026-05-02"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "ba6b8e79-fbaa-4b06-9a81-128",
+        "gộp",
+        "các",
+        "nhỏ",
+        "utc",
+        "key"
+      ]
+    }
+  }
+}

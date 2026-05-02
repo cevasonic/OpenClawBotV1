@@ -1,0 +1,2 @@
+/root/.openclaw/workspace/Conkien/AGENTS.md
+/root/.openclaw/workspace/Conkien/Conkien_v1.4.md

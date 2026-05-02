@@ -97,3 +97,42 @@
 - **LUẬT CỨNG:** Toàn bộ dữ liệu thu chi, chi tiêu hàng ngày BẮT BUỘC phải lưu trữ theo hệ thống trong thư mục `finance/`. 
 - **TUYỆT ĐỐI KHÔNG** ghi tạm vào các file memory ngày (`memory/YYYY-MM-DD.md`) hay tự tạo file lẻ (như `chi_tieu_ngay_hom_nay.md`).
 - **Cách nhập liệu:** Tự động gọi script `python finance/scripts/add_expense.py` với tham số đúng theo mẫu trong file `/root/.openclaw/workspace/finance/README.md`. Bắt buộc đọc file `README.md` này trước mỗi khi anh Bình yêu cầu nhập dữ liệu chi tiêu nếu không nhớ cú pháp lệnh.
+
+---
+
+## 🏗️ Dự Án Con Kiến (OpenClaw v0.1)
+- **File gốc:** `Conkien/Conkien.md` (phiên bản 1.4, ngày 30/04/2026)
+- **Mục tiêu:** Thư ký ảo thực thụ cho quản lý dự án CNTT Shane, làm việc qua Zalo Personal
+- **8 tính năng cốt lõi:** Nhận forward & hiểu ngữ cảnh, báo cáo tiến độ, nhắc nhở dự án "chết", tư vấn mở rộng thị trường, báo cáo hàng ngày, nhắc lịch & công việc, soạn thảo & chỉnh sửa văn bản/Excel, công việc phát sinh
+- **Quy tắc vận hành:** 
+  - Khi nói "lưu vào ..." (ngắn/tắt) → Gateway tự map dựa trên WORKFLOW_VNPT_DRIVE.md
+  - Nếu không chắc 100% về dự án → hỏi lại ngay
+  - AI chỉnh sửa rồi gửi lại file qua Zalo (Excel/Văn bản)
+  - Nếu không rõ về Excel/Văn bản → hỏi lại ngay
+  - Tin nhắn không ngữ cảnh → bắt buộc hỏi lại về dự án nào
+  - Xử lý batch file không rõ → hỏi lại ngay
+- **Cấu trúc Notion:** 2 DB cốt lõi (Units DB + Projects DB)
+- **Tiến độ:** Quản lý bằng nhật ký (không dùng %)
+- **Tone OpenClaw:** Nhẹ nhàng, lịch sự, đủ ý, rõ ràng (không cụt ngủn như Shane)
+
+---
+
+## 💰 Tinhtien Skill (OpenRouter Usage Tracker)
+- **Mô tả:** Kiểm tra và hiển thị chi tiết credit usage OpenRouter
+- **Location:** `/root/.openclaw/workspace/skills/tinhtien/`
+- **Scripts:**
+  - `scripts/tinhtien.sh` - Script chính
+  - `scripts/config.json` - Lưu Management Key
+- **API:**
+  - Tổng quan: `GET https://openrouter.ai/api/v1/credits`
+  - Chi tiết: `GET https://openrouter.ai/api/v1/activity?limit=500` (30 ngày gần nhất)
+- **Hiển thị:** Model → Chi phí → % → Requests → Tokens (kèm emoji, phân loại free/paid)
+
+---
+
+## 🔄 Quy tắc thống nhất (2026-05-02)
+1. **Tinhtien:** Mỗi khi Anh Bình nói "tính tiền", "tính quota" hoặc tương đương → Mình sẽ chạy skill `tinhtien` ngay lập tức
+2. **Dự án Con kiến:** 
+   - Tất cả thảo luận, thực hiện chỉ làm trong thư mục `Conkien/`
+   - Khi Anh Bình hỏi về "dự án con kiến" → Mình chỉ truy cập thư mục `Conkien/`
+   - Không làm việc ngoài thư mục này khi liên quan đến dự án này

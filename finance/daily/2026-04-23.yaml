@@ -1,0 +1,8 @@
+date: '2026-04-23'
+expenses:
+- time: 08:00
+  category: Cafe sáng
+  amount: 84000
+  source: Cơ quan
+  note: Cafe sáng
+total: 84000

@@ -92,6 +92,49 @@ Use when the main artifact is a Microsoft Word document or `.docx` file, especia
 - A revision workflow can look accepted on screen while leftover metadata, comments, or field caches still make the file unstable later.
 - TOC entries, footnotes, and cross-references can look correct until the recipient updates fields and exposes broken anchors.
 
+## Helper Scripts (Bổ sung)
+
+Các script sau đã được bổ sung vào thư mục `scripts/`:
+
+### `scripts/accept_changes.py`
+- **Mục đích:** Accept tất cả tracked changes trong DOCX
+- **Phụ thuộc:** LibreOffice (`soffice`) phải được cài đặt
+- **Cách dùng:**
+  ```bash
+  python3 scripts/accept_changes.py input.docx output.docx
+  ```
+- Script sẽ copy file, setup macro LibreOffice, và chạy headless để accept changes.
+
+### `scripts/office/unpack.py` & `pack.py`
+- **Unpack:** Giải nén DOCX thành XML (để edit thủ công)
+  ```bash
+  python3 scripts/office/unpack.py document.docx unpacked/
+  ```
+- **Pack:** Đóng gói XML thành DOCX với validation
+  ```bash
+  python3 scripts/office/pack.py unpacked/ output.docx --original document.docx
+  ```
+- `--validate false` để bỏ qua validation nếu cần.
+
+### `scripts/office/soffice.py`
+- Convert định dạng với LibreOffice headless:
+  ```bash
+  # Convert .doc → .docx
+  python3 scripts/office/soffice.py --headless --convert-to docx document.doc
+
+  # Export DOCX → PDF
+  python3 scripts/office/soffice.py --headless --convert-to pdf document.docx
+  ```
+
+### `scripts/comment.py`
+- Thêm comment vào DOCX đã được unpack:
+  ```bash
+  # Add comment
+  python3 scripts/comment.py unpacked/ 0 "Comment text"
+  # Add reply
+  python3 scripts/comment.py unpacked/ 1 "Reply" --parent 0
+  ```
+
 ## Related Skills
 Install with `clawhub install <slug>` if user confirms:
 - `documents` — General document handling and format conversion.

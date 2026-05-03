@@ -30,3 +30,31 @@ Keep this format as default for tinhtien skill output.
 ### Resolution
 - **Promoted**: AGENTS.md
 - **Notes**: Added skill output formatting guidelines to AGENTS.md under "Skill Output Formatting" section
+
+---
+
+## [LRN-20260503-001] correction
+
+**Logged**: 2026-05-03T18:43:00+07:00
+**Priority**: high
+**Status**: pending
+**Area**: memory
+
+### Summary
+When user says "show hướng dẫn sử dụng", assistant must read usage-guide.md from workspace, not the system docs.
+
+### Details
+User has a custom usage-guide.md in /root/.openclaw/workspace/ that contains Telegram-specific commands and workflow. Assistant mistakenly read the system README.md from /usr/lib/node_modules/openclaw/ instead.
+
+### Suggested Action
+Add hard rule: "nói hướng dẫn sử dụng" → trigger read of usage-guide.md immediately.
+
+### Metadata
+- Source: conversation
+- Related Files: /root/.openclaw/workspace/usage-guide.md
+- Tags: usage-guide, memory, user-feedback
+
+### Resolution
+- **Promoted**: AGENTS.md (Section: 📋 Workflow Protocols → Communication Protocols → File Sending Protocol)
+- **Notes**: Added rule: "gửi file" without filename → ask first; after sending → respond with "Đã gửi thành công" only
+- **Status**: promoted

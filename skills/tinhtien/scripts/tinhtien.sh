@@ -84,9 +84,7 @@ for model, m in sorted_models:
     paid_icon = '💰' if cost > 0 else '🆓'
     model_display = f'{paid_icon} {model}'
     print(model_display)
-    # Format cost with dollar sign and 5 decimal places, left-aligned in 10 chars
-    cost_str = f'\${cost:<9.5f}'
-    print(f'    {cost_str}   {pct:>5.1f}%   {requests:>8,}')
+    print(f'    \${cost:.5f}, {pct:>5.1f}%, {requests:,}')
     print()
 
 print()

@@ -204,6 +204,22 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 📋 Workflow Protocols
+
+### Promote Learnings Protocol
+When "Promote learnings" command is issued:
+1. Check `.learnings/` for pending items
+2. Consolidate related lessons
+3. Push only broadly applicable principles to AGENTS.md (keep project-specific details in project folders)
+4. Report results via Telegram
+
+### Communication Protocols
+
+#### File Sending Protocol
+- When user says "gửi file" without specifying filename → ASK for clarification
+- After sending file → respond ONLY with "Đã gửi thành công" (no extra text, emojis, explanations)
+- Never auto-guess which file to send
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

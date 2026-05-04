@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-02T10:07:25.829Z",
+  "updatedAt": "2026-05-04T04:22:53.940Z",
   "entries": {
     "memory:memory/2026-04-13.md:159:223": {
       "key": "memory:memory/2026-04-13.md:159:223",
@@ -40,18 +40,20 @@
       "endLine": 837,
       "source": "memory",
       "snippet": "Anh yên tâm làm việc, cứ đến tối là em sẽ tự tổng hợp và báo cáo cho anh Bình nhé! 💡 user: System (untrusted): [2026-04-15 19:29:15 GMT+7] Exec completed (faint-ha, code 0) :: -token <token> Gateway token (if required) --tools <csv> Comma-separated tool allow-list (e.g. exec,read,write) --tz <iana> Timezone for cron expressions (IANA) (default: \"\") --ur… System (untrusted): [2026-04-15 19:29:53 GMT+7] Exec completed (ember-ha, code 0) :: \"updatedAtMs\": 1776256181336, \"schedule\": { \"kind\": \"cron\", \"expr\": \"30 19 * * *\", \"tz\": \"Asia/Saigon\" }, \"sessionTarget\": \"isolated\", \"wakeMode\": \"now\", \"payload\": { \"kind\": \"age… An async command you ran earlier has completed. The result is shown in the",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.4496648520231247,
-      "maxScore": 0.4496648520231247,
+      "totalScore": 0.9171526670455932,
+      "maxScore": 0.46748781502246856,
       "firstRecalledAt": "2026-05-02T10:07:25.829Z",
-      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-04T04:22:53.940Z",
       "queryHashes": [
-        "64bd05d89142"
+        "64bd05d89142",
+        "dba8cf87c0e7"
       ],
       "recallDays": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-04"
       ],
       "conceptTags": [
         "gateway",
@@ -155,6 +157,99 @@
         "nhỏ",
         "utc",
         "key"
+      ]
+    },
+    "memory:memory/2026-04-20.md:281:329": {
+      "key": "memory:memory/2026-04-20.md:281:329",
+      "path": "memory/2026-04-20.md",
+      "startLine": 281,
+      "endLine": 329,
+      "source": "memory",
+      "snippet": "\"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Sao không thấy cron job nào chạy vậy, quá giờ rồi user: Conversation info (untrusted metadata): ```json { \"message_id\": \"1060\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Thu 2026-04-16 12:12 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Tình hình sao rồi # Session: 2026-04-20 15:02:39 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: 3ef68110-4f83-410b-8cc3-f2efb51be8bc - **Source**: telegram ## Conversation Summary u",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.46754480898380274,
+      "maxScore": 0.46754480898380274,
+      "firstRecalledAt": "2026-05-04T04:22:53.940Z",
+      "lastRecalledAt": "2026-05-04T04:22:53.940Z",
+      "queryHashes": [
+        "dba8cf87c0e7"
+      ],
+      "recallDays": [
+        "2026-05-04"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "label",
+        "thanh",
+        "binh",
+        "nguyen",
+        "name",
+        "sao"
+      ]
+    },
+    "memory:memory/2026-04-20.md:473:495": {
+      "key": "memory:memory/2026-04-20.md:473:495",
+      "path": "memory/2026-04-20.md",
+      "startLine": 473,
+      "endLine": 495,
+      "source": "memory",
+      "snippet": "RAM và ổ cứng (trống 13GB) vẫn dư dả thoải mái, nhưng CPU đang phải hoạt động hết công suất. Để em khởi động lại dịch vụ OpenClaw một lần nữa cho sạch tiến trình treo cũ nha Anh! user: Conversation info (untrusted metadata): ```json { \"chat_id\": \"telegram:703003678\", \"message_id\": \"1286\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-20 15:47 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Phân tích giúp tôi xem tại sao cpu lại tốn nhiều vậy",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4649995237588882,
+      "maxScore": 0.4649995237588882,
+      "firstRecalledAt": "2026-05-04T04:22:53.940Z",
+      "lastRecalledAt": "2026-05-04T04:22:53.940Z",
+      "queryHashes": [
+        "dba8cf87c0e7"
+      ],
+      "recallDays": [
+        "2026-05-04"
+      ],
+      "conceptTags": [
+        "chat-id",
+        "message-id",
+        "sender-id",
+        "ram",
+        "cứng",
+        "trống",
+        "13gb",
+        "vẫn"
+      ]
+    },
+    "memory:memory/2026-04-20.md:429:480": {
+      "key": "memory:memory/2026-04-20.md:429:480",
+      "path": "memory/2026-04-20.md",
+      "startLine": 429,
+      "endLine": 480,
+      "source": "memory",
+      "snippet": "\"chat_id\": \"telegram:703003678\", \"message_id\": \"1282\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-20 15:45 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Sao rồi assistant: Dạ Anh Bình, vấn đề do cấu hình quyền nhắn tin Zalo (dmPolicy) đang đặt là \"pairing\" (chỉ cho phép thiết bị đã ghép nối nhắn tin). Em đã chuyển thành \"open\" (cho phép tất cả) và khởi động lại dịch vụ rồi ạ. Anh Bình thử chat lại qua Zalo xem em đã phản hồi được chưa nha! 💡 user: Conversation info (untrusted metadata): ```json { \"chat_id\": \"telegram:703003678\",",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4611174255609512,
+      "maxScore": 0.4611174255609512,
+      "firstRecalledAt": "2026-05-04T04:22:53.940Z",
+      "lastRecalledAt": "2026-05-04T04:22:53.940Z",
+      "queryHashes": [
+        "dba8cf87c0e7"
+      ],
+      "recallDays": [
+        "2026-05-04"
+      ],
+      "conceptTags": [
+        "chat-id",
+        "message-id",
+        "sender-id",
+        "telegram",
+        "sender",
+        "thanh",
+        "binh",
+        "nguyen"
       ]
     }
   }

@@ -91,7 +91,7 @@ def add_expense(args):
 
     # Tạo expense entry
     expense = {
-        'time': args.time if args.time is not None else '',
+        'time': args.time,
         'category': args.category,
         'amount': args.amount,
         'source': args.source
@@ -106,8 +106,7 @@ def add_expense(args):
     save_daily_file(filepath, data)
 
     print(f"✅ Đã thêm chi tiêu vào {filename}")
-    time_display = args.time if args.time is not None else "(không có)"
-    print(f"   Thời gian: {time_display}")
+    print(f"   Thời gian: {args.time}")
     print(f"   Mục: {args.category}")
     print(f"   Số tiền: {args.amount:,} VNĐ")
     print(f"   Nguồn: {args.source}")
@@ -116,7 +115,7 @@ def add_expense(args):
 def main():
     parser = argparse.ArgumentParser(description="Thêm chi tiêu mới")
     parser.add_argument('--date', required=True, help="Ngày chi (YYYY-MM-DD)")
-    parser.add_argument('--time', required=False, help="Thời gian (HH:MM), tùy chọn (không bắt buộc)")
+    parser.add_argument('--time', required=False, default="00:00", help="Thời gian (HH:MM), mặc định là 00:00 nếu không cung cấp")
     parser.add_argument('--category', required=True, help="Mục chi phí")
     parser.add_argument('--amount', type=int, required=True, help="Số tiền (VNĐ)")
     parser.add_argument('--source', required=True, help="Nguồn chi phí")

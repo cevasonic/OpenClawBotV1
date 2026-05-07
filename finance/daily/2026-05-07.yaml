@@ -1,0 +1,11 @@
+date: '2026-05-07'
+expenses:
+- time: ''
+  category: Ăn tối
+  amount: 168000
+  source: Cơ quan
+- time: 08:00
+  category: Ăn sáng
+  amount: 45000
+  source: Cơ quan
+total: 213000

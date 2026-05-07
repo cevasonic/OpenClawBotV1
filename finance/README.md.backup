@@ -37,7 +37,7 @@ python finance/scripts/add_expense.py \
 
 **Tham số:**
 - `--date`: Ngày chi (YYYY-MM-DD), bắt buộc
-- `--time`: Thời gian (HH:MM), **tùy chọn** (mặc định là 00:00 nếu không cung cấp)
+- `--time`: Thời gian (HH:MM), bắt buộc
 - `--category`: Mục chi phí, bắt buộc
 - `--amount`: Số tiền (VNĐ), bắt buộc
 - `--source`: Nguồn chi phí, bắt buộc
@@ -208,4 +208,3 @@ Số tiền phải là số dương.
 ## 🔄 Lịch Sử Thay Đổi
 
 - **2025-06-17**: Tạo hệ thống ban đầu với các chức năng cơ bản.
-- **2026-05-07**: Cập nhật để làm tham số `--time` trở thành tùy chọn (mặc định 00:00 nếu không cung cấp).

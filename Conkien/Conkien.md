@@ -1,12 +1,10 @@
 # Conkien.md - Dự Án "Con Kiến" (OpenClaw v0.1)
-**Phiên bản:** 1.6 (ngày 03/05/2026)
+**Phiên bản:** 1.7 (ngày 09/05/2026)
 **Tác giả:** Bình (Quản lý dự án CNTT)
-**Thay đổi chính ở v1.6:**
-- Chuyển toàn bộ dự án sang kiến trúc multi-skill (6 skill độc lập).
-- Cập nhật master plan, cấu trúc thư mục, kế hoạch phát triển theo skill.
-- Thêm Section 4.5 và Section 15: Kiến trúc Multi-Skill + mối quan hệ giữa các skill.
-- Merge toàn bộ nội dung Workflow Quản lý Dữ liệu Thư mục VNPT trên Google Drive vào Section 14 (self-contained).
-- Tiếp tục tuân thủ nghiêm ngặt Karpathy Guidelines (SKILL.md).
+**Thay đổi chính ở v1.7:**
+- Chuyển đổi nền tảng lưu trữ từ Google Drive sang OneDrive theo yêu cầu của Anh Bình.
+- Cập nhật Section 14 (Workflow OneDrive).
+- Đồng bộ hóa toàn bộ các file liên quan (SOUL, USER, SKILL).
 
 **Mục đích file:** Đây là Master Plan tổng hợp toàn bộ dự án "Con Kiến". Mọi quyết định phát triển skill đều dựa vào file này trước khi triển khai vào OpenClaw chính thức.
 
@@ -36,7 +34,7 @@ OpenClaw phải:
 - Tất cả hoạt động qua chat trực tiếp trên Zalo Personal → AI tự xử lý.
 
 ## 3. 8 Tính năng cốt lõi (theo yêu cầu)
-1. Nhận forward & Hiểu ngữ cảnh: Chat/file trên Zalo → OpenClaw hiểu là file của dự án nào, cập nhật tiến độ, lưu vào Google Drive + Notion.
+1. Nhận forward & Hiểu ngữ cảnh: Chat/file trên Zalo → OpenClaw hiểu là file của dự án nào, cập nhật tiến độ, lưu vào OneDrive + Notion.
 2. Báo cáo tiến độ & Lịch sử dự án: Khi yêu cầu → gửi file báo cáo (Markdown/PDF) chứa lịch sử ngày-tháng, tiến độ, khó khăn.
 3. Nhắc nhở dự án "chết": Tự động quét → dự án >30 ngày không update → nhắc + đánh giá cơ hội còn lại.
 4. Tư vấn mở rộng thị trường: Thu thập thông tin pháp luật, xu hướng, sở ngành/xã phường → đề xuất hành động cụ thể.
@@ -49,8 +47,8 @@ OpenClaw phải:
 - Input: Chat trực tiếp với OpenClaw trên Zalo Personal (đã kết nối thành công).
 - Xử lý: Hệ thống multi-skill (OpenClaw tự động routing dựa trên triggers + description).
 - Lưu trữ:
- - Google Drive (5TB): Lưu file gốc theo Section 14 (cấu trúc Xa Phuong / So Nganh).
- - Notion (Pro AI): Lưu tiến độ dự án, lịch sử, link file Drive.
+ - OneDrive (5TB): Lưu file gốc theo Section 14 (cấu trúc Xa Phuong / So Nganh).
+ - Notion (Pro AI): Lưu tiến độ dự án, lịch sử, link file OneDrive.
 - Core Engine: conkien-core (làm nền tảng chung cho mọi skill).
 - Output: Báo cáo Markdown/PDF, file đã chỉnh sửa gửi lại qua Zalo.
 - Công cụ hiện tại: Antigravity + Claude (OpenRouter). Sau này tích hợp OpenClaw native.
@@ -86,7 +84,7 @@ Cách triển khai: Bắt đầu từ conkien-core → conkien-tracking → lầ
 
 ## 8. Công cụ & Công nghệ sử dụng
 - Hiện tại: Antigravity + Claude 3.5/4 via OpenRouter.
-- Lưu trữ: Notion (database) + Google Drive (5TB).
+- Lưu trữ: Notion (database) + OneDrive (5TB).
 - Input: Chat trực tiếp trên Zalo Personal.
 - Output: Markdown → PDF + file chỉnh sửa qua Zalo.
 - Tương lai: Khi OpenClaw sẵn sàng → migrate toàn bộ.
@@ -114,7 +112,7 @@ Conkien/
 │ ├── conkien-reminder/
 │ ├── conkien-consult/
 │ └── conkien-admin/
-├── shared-references/ # File chung (vnpt_drive_structure.json, units-list.md, templates…)
+├── shared-references/ # File chung (vnpt_onedrive_structure.json, units-list.md, templates…)
 ├── tests/ # Test suite
 ├── templates/ # Mẫu công văn, Excel…
 ├── docs/ # Hướng dẫn + workflow
@@ -123,9 +121,9 @@ Conkien/
 └── data/ # Dữ liệu thực tế
 
 
-## 12. Thông tin bổ sung từ Shane & Quy tắc vận hành
+## 12. Thông tin bổ sung từ Bình & Quy tắc vận hành
 ### 12.1 Quản lý dự án
-- 96 xã/phường (Tây Ninh) + 22 sở ngành/ban.
+- Các xã/phường (Tây Ninh) và các sở ngành/ban.
 - Mỗi đơn vị có nhiều dự án (ví dụ: Xã Tân Châu có Camera, IOC, Ấp thông minh…).
 
 ### 12.2 Quy tắc nhận diện dự án & Ví dụ tin nhắn thực tế
@@ -136,8 +134,8 @@ Conkien/
  - "Cập nhật thông tin cho Ấp thông minh Tân Châu: ..."
 
 ### 12.3 Lưu trữ
-- Google Drive: Áp dụng đúng Section 14 (tự động tạo folder + upload).
-- Notion: Lưu tiến độ + link Drive.
+- OneDrive: Áp dụng đúng Section 14 (tự động tạo folder + upload).
+- Notion: Lưu tiến độ + link OneDrive.
 
 ### 12.4 Forward & Chat
 - Chat trực tiếp trên Zalo Personal.
@@ -163,13 +161,13 @@ Conkien/
 - Dự án liên cấp: Không tồn tại. Mỗi dự án chỉ map với 1 đơn vị duy nhất.
 - Trùng lặp phiên bản: Tự động đổi tên file mới thành _v2, _v3… để lưu trữ lịch sử sửa đổi.
 - Xử lý ảnh/Scan: Ưu tiên chạy OCR để trích xuất văn bản phục vụ tìm kiếm nhanh.
-- File biểu mẫu: AI tự động trích xuất từ kho file mẫu có sẵn trên Drive khi cần soạn thảo.
+- File biểu mẫu: AI tự động trích xuất từ kho file mẫu có sẵn trên OneDrive khi cần soạn thảo.
 - Xử lý Excel: AI chỉ tinh chỉnh định dạng và nhập liệu cơ bản, không xử lý các file có Macro phức tạp.
 - Ghi âm (Voice note): Hiện tại chưa cần tính năng chuyển đổi giọng nói thành văn bản.
 
-### 12.10 Tính cách của Shane & Tone của OpenClaw
-- Tính cách Shane: Nóng tính, dễ nổi giận, nhắn tin cụt ngủn, vắn tắt.
-- Tone của OpenClaw: Nhẹ nhàng, lịch sự, đủ ý, rõ ràng (không cụt ngủn như Shane).
+### 12.10 Tính cách của Bình & Tone của OpenClaw
+- Tính cách Bình: Nóng tính, dễ nổi giận, nhắn tin cụt ngủn, vắn tắt.
+- Tone của OpenClaw: Nhẹ nhàng, lịch sự, đủ ý, rõ ràng (không cụt ngủn như Bình).
 
 ### 12.11 Xử lý batch file
 - Nếu forward nhiều file cùng lúc và không rõ → hỏi lại ngay (theo nguyên tắc Karpathy).
@@ -178,7 +176,7 @@ Conkien/
 Để đảm bảo Simplicity First, hệ thống vẫn dùng 2 Database cốt lõi:
 
 1. **Units DB (Cơ sở dữ liệu Đơn vị)**
- - Chức năng: Lưu danh sách 96 xã/phường và 22 sở ngành/ban.
+ - Chức năng: Lưu danh sách các xã/phường và các sở ngành/ban.
  - Các trường: Tên đơn vị, Nhóm (Sở ngành / Xã phường).
 
 2. **Projects DB (Cơ sở dữ liệu Dự án)**
@@ -189,18 +187,18 @@ Conkien/
  - Từ khóa nhận diện (Aliases): VD "Camera Khánh Hậu", "IOC khánh hậu".
  - Trạng thái: Select với các giá trị cố định: Sơ Khai, Xúc Tiến, Xin chủ trương, Thiết kế, Đấu thầu, Tham dự thầu, Thi Công, Nghiệm thu.
  - Last Update
- - Link Google Drive
+ - Link OneDrive
  - Nhật ký tiến độ (Relation hoặc Linked Database để lưu log chi tiết từng bước).
 
-Lưu ý: Tiến độ được quản lý bằng nhật ký (không dùng % hoàn thành). OpenClaw sẽ cập nhật trạng thái theo từng bước mà Shane cung cấp.
+Lưu ý: Tiến độ được quản lý bằng nhật ký (không dùng % hoàn thành). OpenClaw sẽ cập nhật trạng thái theo từng bước mà Bình cung cấp.
 
-## 14. Workflow Quản lý Dữ liệu Thư mục VNPT trên Google Drive
+## 14. Workflow Quản lý Dữ liệu Thư mục VNPT trên OneDrive
 
 ### 🎯 Mục tiêu
-Tự động hóa việc phân loại và lưu trữ tài liệu vào Google Drive mà không cần người dùng chỉ dẫn chi tiết đường dẫn.
+Tự động hóa việc phân loại và lưu trữ tài liệu vào OneDrive mà không cần người dùng chỉ dẫn chi tiết đường dẫn.
 
 ### 📂 Cấu trúc Thư mục Chuẩn
-- Root: VNPT (ID lưu trong vnpt_drive_structure.json)
+- Root: VNPT (ID lưu trong vnpt_onedrive_structure.json)
 - Nhánh 1: Xa Phuong → {Tên Xã/Phường} (Ví dụ: Xã Tân Châu)
 - Nhánh 2: So Nganh → {Tên Sở/Ngành} (Ví dụ: Sở Y Tế)
 
@@ -214,23 +212,23 @@ Khi Anh Bình gửi một file và yêu cầu lưu (ví dụ: "Lưu vào Xã Tâ
  - Trích xuất tên đơn vị cụ thể (ví dụ: Tan Chau, Y Te).
 
 2. Tra cứu ID:
- - Đọc file vnpt_drive_structure.json để lấy ID của nhánh tương ứng (Xa Phuong hoặc So Nganh).
+ - Đọc file vnpt_onedrive_structure.json để lấy ID của nhánh tương ứng (Xa Phuong hoặc So Nganh).
 
 3. Kiểm tra/Tạo Thư mục Đích:
  - Truy cập vào thư mục nhánh.
  - Tìm kiếm thư mục có tên {Tên đơn vị}.
  - Nếu tìm thấy: Lấy ID thư mục đó.
  - Nếu KHÔNG tìm thấy:
- - Tạo thư mục mới → Lưu ID mới vào dynamic_folders trong vnpt_drive_structure.json để dùng cho lần sau.
+ - Tạo thư mục mới → Lưu ID mới vào dynamic_folders trong vnpt_onedrive_structure.json để dùng cho lần sau.
  - Lấy ID vừa tạo.
 
 4. Thực hiện Upload:
  - Upload file vào ID cuối cùng.
 
 ### 📝 Ghi chú Kỹ thuật (API Gateway)
-- Base URL: https://gateway.maton.ai/google-drive/drive/v3/
+- Base URL: https://gateway.maton.ai/onedrive/v1/
 - Authentication: Sử dụng MATON_API_KEY.
-- MimeType Folder: application/vnd.google-apps.folder.
+- MimeType Folder: folder.
 
 ### 🚀 Ví dụ Kịch bản
 **User**: "Gửi file bao-cao.pdf, lưu vào Xã Tân Châu nhé."
@@ -240,7 +238,7 @@ Khi Anh Bình gửi một file và yêu cầu lưu (ví dụ: "Lưu vào Xã Tâ
 - Upload bao-cao.pdf vào ABC-123.
 - Reply: "Mình đã tạo thư mục Xã Tân Châu và upload file báo-cao.pdf vào đó cho anh rồi ạ! 💡"
 
-Lưu ý quan trọng: Tất cả logic xử lý file Google Drive của OpenClaw (đặc biệt trong conkien-tracking) phải tuân thủ nghiêm ngặt Section 14 này.
+Lưu ý quan trọng: Tất cả logic xử lý file OneDrive của OpenClaw (đặc biệt trong conkien-tracking) phải tuân thủ nghiêm ngặt Section 14 này.
 
 ## 15. Danh sách Skill Con Kiến
 Mỗi skill sẽ có:
@@ -253,4 +251,4 @@ conkien-core là skill bắt buộc phải có trước, cung cấp tone, gatewa
 **File này là nguồn sự thật duy nhất.** Mọi thay đổi lớn đều phải update file Conkien.md trước, sau đó mới triển khai vào skill tương ứng.
 
 ---
-**Sẵn sàng hỗ trợ Shane 24/7 với tinh thần thư ký chuyên nghiệp.**
+**Sẵn sàng hỗ trợ Bình 24/7 với tinh thần thư ký chuyên nghiệp.**

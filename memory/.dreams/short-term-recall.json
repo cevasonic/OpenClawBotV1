@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-04T04:22:53.940Z",
+  "updatedAt": "2026-05-09T13:49:39.400Z",
   "entries": {
     "memory:memory/2026-04-13.md:159:223": {
       "key": "memory:memory/2026-04-13.md:159:223",
@@ -250,6 +250,68 @@
         "thanh",
         "binh",
         "nguyen"
+      ]
+    },
+    "memory:memory/2026-04-15.md:379:443": {
+      "key": "memory:memory/2026-04-15.md:379:443",
+      "path": "memory/2026-04-15.md",
+      "startLine": 379,
+      "endLine": 443,
+      "source": "memory",
+      "snippet": "user: Conversation info (untrusted metadata): ```json { \"message_id\": \"689\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Wed 2026-04-15 09:46 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Hiện tại vẫn chưa phải mô hình từ openrouter token là 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 URL là https://openrouter.ai/api/v1 user: Conversation info (untrusted metadata): ```json { \"message_id\": \"690\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Wed 2026-04-15 09:58 GMT+7\" } ``` Sender (untru",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4563362747430801,
+      "maxScore": 0.4563362747430801,
+      "firstRecalledAt": "2026-05-09T13:49:39.400Z",
+      "lastRecalledAt": "2026-05-09T13:49:39.400Z",
+      "queryHashes": [
+        "f4cc616d1928"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "router",
+        "message-id",
+        "sender-id",
+        "openrouter.ai/api/v1",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/2026-04-20.md:73:112": {
+      "key": "memory:memory/2026-04-20.md:73:112",
+      "path": "memory/2026-04-20.md",
+      "startLine": 73,
+      "endLine": 112,
+      "source": "memory",
+      "snippet": "Giờ thống nhất là lưu Local nhé. Rồi sau đó xem lại vụ Zalo cho mình Trong nền, mình cũng có tính năng **Auto Memory Flush** (tự động dọn dẹp và cô đọng trí nhớ khi trò chuyện quá dài) và **Daily Knowledge Mining** (tự học lại các bài học hôm qua vào mỗi buổi sáng), nên anh không cần lo về việc mình sẽ \"quên\" đâu nha. --- Giờ mình bắt đầu xem vụ Zalo cho anh nhé. Anh có thể nói cụ thể hơn là Zalo đang gặp vấn đề gì hoặc anh cần mình kiểm tra phần nào không? user: Proactively greet the user and guide them through onboarding BEFORE doing anything else. System (untrusted): [2026-04-20 15:28:59 GMT+7] Exec failed (kind-gul, signal SIGKILL) :: Thinking... System (untrusted): [2026-04-20",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4516544044017791,
+      "maxScore": 0.4516544044017791,
+      "firstRecalledAt": "2026-05-09T13:49:39.400Z",
+      "lastRecalledAt": "2026-05-09T13:49:39.400Z",
+      "queryHashes": [
+        "f4cc616d1928"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "kind-gul",
+        "giờ",
+        "thống",
+        "nhất",
+        "lưu",
+        "local",
+        "nhé",
+        "rồi"
       ]
     }
   }

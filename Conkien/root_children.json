@@ -1,0 +1,1050 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ntbinh.science%40hotmail.com')/drive/root/children",
+    "value": [
+        {
+            "createdDateTime": "2025-12-26T03:30:43Z",
+            "eTag": "\"{6859E45E-7FD1-4066-A3C5-50F91919560C},1\"",
+            "id": "C64D3600679F709F!s6859e45e7fd14066a3c550f91919560c",
+            "lastModifiedDateTime": "2025-12-26T03:30:43Z",
+            "name": "Apps",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!s6859e45e7fd14066a3c550f91919560c",
+            "cTag": "\"c:{6859E45E-7FD1-4066-A3C5-50F91919560C},0\"",
+            "isAuthoritative": false,
+            "size": 0,
+            "createdBy": {
+                "application": {
+                    "id": "5e2795e3-ce8c-4cfb-b302-35fe5cd01597",
+                    "displayName": "i:0i.t|ms.sp.ext|5e2795e3-ce8c-4cfb-b302-35fe5cd01597@9188040d-6c67-4c5b-b112-36a304b66dad"
+                },
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "application": {
+                    "id": "5e2795e3-ce8c-4cfb-b302-35fe5cd01597",
+                    "displayName": "i:0i.t|ms.sp.ext|5e2795e3-ce8c-4cfb-b302-35fe5cd01597@9188040d-6c67-4c5b-b112-36a304b66dad"
+                },
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2025-12-26T03:30:43Z",
+                "lastModifiedDateTime": "2025-12-26T03:30:43Z"
+            },
+            "folder": {
+                "childCount": 1,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            },
+            "specialFolder": {
+                "name": "apps"
+            }
+        },
+        {
+            "createdDateTime": "2025-04-28T09:54:09Z",
+            "eTag": "\"{945100F7-83B9-4740-A119-2AD32DA562B2},1\"",
+            "id": "C64D3600679F709F!s945100f783b94740a1192ad32da562b2",
+            "lastModifiedDateTime": "2025-04-28T09:54:09Z",
+            "name": "Attachments",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!s945100f783b94740a1192ad32da562b2",
+            "cTag": "\"c:{945100F7-83B9-4740-A119-2AD32DA562B2},0\"",
+            "isAuthoritative": false,
+            "size": 0,
+            "createdBy": {
+                "application": {
+                    "id": "b3af06fc-dbcf-4a28-98b2-4624811440d8",
+                    "displayName": "b3af06fc-dbcf-4a28-98b2-4624811440d8"
+                },
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "application": {
+                    "id": "b3af06fc-dbcf-4a28-98b2-4624811440d8",
+                    "displayName": "b3af06fc-dbcf-4a28-98b2-4624811440d8"
+                },
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2025-04-28T09:54:09Z",
+                "lastModifiedDateTime": "2025-04-28T09:54:09Z"
+            },
+            "folder": {
+                "childCount": 0,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            },
+            "specialFolder": {
+                "name": "attachments"
+            }
+        },
+        {
+            "createdDateTime": "2021-04-28T02:49:54Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-B7E201000000},182\"",
+            "id": "C64D3600679F709F!123575",
+            "lastModifiedDateTime": "2021-04-28T02:49:54Z",
+            "name": "Ca Nhan",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!123575",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-B7E201000000},0\"",
+            "isAuthoritative": false,
+            "size": 212701255,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2021-04-28T02:49:54Z",
+                "lastModifiedDateTime": "2021-04-28T02:49:54Z"
+            },
+            "folder": {
+                "childCount": 36,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2022-10-29T14:07:46Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-6AED01000000},14\"",
+            "id": "C64D3600679F709F!126314",
+            "lastModifiedDateTime": "2022-10-29T14:07:46Z",
+            "name": "Desktop",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!126314",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-6AED01000000},0\"",
+            "isAuthoritative": false,
+            "size": 3154,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2022-10-29T14:07:46Z",
+                "lastModifiedDateTime": "2022-10-29T14:07:46Z"
+            },
+            "folder": {
+                "childCount": 3,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            },
+            "specialFolder": {
+                "name": "desktop"
+            }
+        },
+        {
+            "createdDateTime": "2025-07-08T04:00:48Z",
+            "eTag": "\"{F730925B-1AE9-4B4F-9517-3BDCE3BCB2D1},1\"",
+            "id": "C64D3600679F709F!sf730925b1ae94b4f95173bdce3bcb2d1",
+            "lastModifiedDateTime": "2025-07-08T04:00:48Z",
+            "name": "DH NN2",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!sf730925b1ae94b4f95173bdce3bcb2d1",
+            "cTag": "\"c:{F730925B-1AE9-4B4F-9517-3BDCE3BCB2D1},0\"",
+            "isAuthoritative": false,
+            "size": 11306325,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2025-07-08T04:00:48Z",
+                "lastModifiedDateTime": "2025-07-08T04:00:48Z"
+            },
+            "folder": {
+                "childCount": 2,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2020-07-23T02:44:45Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-9C7F00000000},43\"",
+            "id": "C64D3600679F709F!32668",
+            "lastModifiedDateTime": "2020-07-23T02:44:45Z",
+            "name": "DHTDM",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!32668",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-9C7F00000000},0\"",
+            "isAuthoritative": false,
+            "size": 1354333036,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2020-07-23T02:44:45Z",
+                "lastModifiedDateTime": "2020-07-23T02:44:45Z"
+            },
+            "folder": {
+                "childCount": 13,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2020-11-16T14:46:09Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-0F8000000000},180\"",
+            "id": "C64D3600679F709F!32783",
+            "lastModifiedDateTime": "2020-11-16T14:46:09Z",
+            "name": "Documents",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!32783",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-0F8000000000},0\"",
+            "isAuthoritative": false,
+            "size": 92026059,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2020-11-16T14:46:09Z",
+                "lastModifiedDateTime": "2020-11-16T14:46:09Z"
+            },
+            "folder": {
+                "childCount": 22,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            },
+            "specialFolder": {
+                "name": "documents"
+            }
+        },
+        {
+            "createdDateTime": "2019-03-25T06:45:34Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-692600000000},45\"",
+            "id": "C64D3600679F709F!9833",
+            "lastModifiedDateTime": "2019-03-25T06:45:34Z",
+            "name": "Graphic Design",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!9833",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-692600000000},0\"",
+            "isAuthoritative": false,
+            "size": 63942848,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2019-03-25T06:45:34Z",
+                "lastModifiedDateTime": "2019-03-25T06:45:34Z"
+            },
+            "folder": {
+                "childCount": 16,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2023-04-15T04:09:25Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-26EE01000000},139\"",
+            "id": "C64D3600679F709F!126502",
+            "lastModifiedDateTime": "2023-04-15T04:09:25Z",
+            "name": "KHDN",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!126502",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-26EE01000000},0\"",
+            "isAuthoritative": false,
+            "size": 11713265,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2023-04-15T04:09:25Z",
+                "lastModifiedDateTime": "2023-04-15T04:09:25Z"
+            },
+            "folder": {
+                "childCount": 9,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2022-03-02T06:56:17Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-B9EB01000000},14\"",
+            "id": "C64D3600679F709F!125881",
+            "lastModifiedDateTime": "2022-03-02T06:56:17Z",
+            "name": "Luat Dau Thau",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!125881",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-B9EB01000000},0\"",
+            "isAuthoritative": false,
+            "size": 4540346,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2022-03-02T06:56:17Z",
+                "lastModifiedDateTime": "2022-03-02T06:56:17Z"
+            },
+            "folder": {
+                "childCount": 2,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2025-10-10T03:45:01Z",
+            "eTag": "\"{990FC4D0-24CB-4F36-A3E2-3A6FA1C8E7F5},1\"",
+            "id": "C64D3600679F709F!s990fc4d024cb4f36a3e23a6fa1c8e7f5",
+            "lastModifiedDateTime": "2025-10-10T03:45:01Z",
+            "name": "Microsoft Copilot Chat Files",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!s990fc4d024cb4f36a3e23a6fa1c8e7f5",
+            "cTag": "\"c:{990FC4D0-24CB-4F36-A3E2-3A6FA1C8E7F5},0\"",
+            "isAuthoritative": false,
+            "size": 5100386,
+            "createdBy": {
+                "application": {
+                    "id": "c0ab8ce9-e9a0-42e7-b064-33d422df41f1",
+                    "displayName": "M365Chat"
+                },
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "application": {
+                    "id": "c0ab8ce9-e9a0-42e7-b064-33d422df41f1",
+                    "displayName": "M365Chat"
+                },
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2025-10-10T03:45:01Z",
+                "lastModifiedDateTime": "2025-10-10T03:45:01Z"
+            },
+            "folder": {
+                "childCount": 2,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            },
+            "specialFolder": {
+                "name": "copilotUploads"
+            }
+        },
+        {
+            "createdDateTime": "2021-10-11T03:34:23Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-95E701000000},28\"",
+            "id": "C64D3600679F709F!124821",
+            "lastModifiedDateTime": "2021-10-11T03:34:23Z",
+            "name": "NCKH",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!124821",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-95E701000000},0\"",
+            "isAuthoritative": false,
+            "size": 52783050,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2021-10-11T03:34:23Z",
+                "lastModifiedDateTime": "2021-10-11T03:34:23Z"
+            },
+            "folder": {
+                "childCount": 3,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2025-03-07T07:35:56Z",
+            "eTag": "\"{DD3CB315-CBDE-4E31-8C71-47F00E12F25A},3\"",
+            "id": "C64D3600679F709F!sdd3cb315cbde4e318c7147f00e12f25a",
+            "lastModifiedDateTime": "2025-03-07T07:35:55Z",
+            "name": "Personal Vault",
+            "cTag": "\"c:{DD3CB315-CBDE-4E31-8C71-47F00E12F25A},1\"",
+            "isAuthoritative": false,
+            "size": 0,
+            "createdBy": {
+                "application": {
+                    "id": "f2b87321-b958-4a6d-8f67-c80007771cbb",
+                    "displayName": "i:0i.t|ms.sp.ext|f2b87321-b958-4a6d-8f67-c80007771cbb@f8cdef31-a31e-4b4a-93e4-5f571e91255a"
+                },
+                "user": {
+                    "displayName": "SharePoint App"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "displayName": "SharePoint App"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2025-03-07T07:35:56Z",
+                "lastModifiedDateTime": "2025-03-07T07:35:55Z"
+            },
+            "remoteItem": {
+                "id": "01W53YWDN6Y2GOVW7725BZO354PWSELRRZ",
+                "size": 0,
+                "folder": {
+                    "childCount": 0
+                },
+                "parentReference": {
+                    "driveType": "personal",
+                    "driveId": "b!YpDU6kQakE2n9s-L5-H-gAUfUFAhJClGgynRU_JuAma2G8dYLkJyQIaszEiTAuYd"
+                },
+                "sharepointIds": {
+                    "listId": "58c71bb6-422e-4072-86ac-cc489302e61d",
+                    "listItemUniqueId": "3096f63d-b046-4c14-bca4-6c3ece765d3b",
+                    "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80",
+                    "siteUrl": "https://my.microsoftpersonalcontent.com/personal/c64d3600679f709f",
+                    "webId": "50501f05-2421-4629-8329-d153f26e0266"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2022-10-29T14:07:46Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-6BED01000000},14\"",
+            "id": "C64D3600679F709F!126315",
+            "lastModifiedDateTime": "2022-10-29T14:07:46Z",
+            "name": "Pictures",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!126315",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-6BED01000000},0\"",
+            "isAuthoritative": false,
+            "size": 1369946242,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2022-10-29T14:07:46Z",
+                "lastModifiedDateTime": "2022-10-29T14:07:46Z"
+            },
+            "folder": {
+                "childCount": 2,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            },
+            "specialFolder": {
+                "name": "photos"
+            }
+        },
+        {
+            "createdDateTime": "2021-05-05T13:50:02Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-C9E201000000},28\"",
+            "id": "C64D3600679F709F!123593",
+            "lastModifiedDateTime": "2021-05-05T13:50:02Z",
+            "name": "Python",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!123593",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-C9E201000000},0\"",
+            "isAuthoritative": false,
+            "size": 27345586,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2021-05-05T13:50:02Z",
+                "lastModifiedDateTime": "2021-05-05T13:50:02Z"
+            },
+            "folder": {
+                "childCount": 3,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2021-09-17T01:58:24Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-C1E501000000},28\"",
+            "id": "C64D3600679F709F!124353",
+            "lastModifiedDateTime": "2021-10-23T08:24:45Z",
+            "name": "QLDA",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!124353",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-C1E501000000},0\"",
+            "isAuthoritative": false,
+            "size": 7988636247,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2021-09-17T01:58:24Z",
+                "lastModifiedDateTime": "2021-10-23T08:24:45Z"
+            },
+            "folder": {
+                "childCount": 4,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2019-06-19T03:33:07Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-832600000000},274\"",
+            "id": "C64D3600679F709F!9859",
+            "lastModifiedDateTime": "2020-07-23T02:45:22Z",
+            "name": "ReactNative",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!9859",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-832600000000},0\"",
+            "isAuthoritative": false,
+            "size": 2369391718,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2019-06-19T03:33:07Z",
+                "lastModifiedDateTime": "2020-07-23T02:45:22Z"
+            },
+            "folder": {
+                "childCount": 18,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2020-11-12T00:51:35Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-F47F00000000},3\"",
+            "id": "C64D3600679F709F!32756",
+            "lastModifiedDateTime": "2020-11-12T00:51:35Z",
+            "name": "Sang Kien",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!32756",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-F47F00000000},0\"",
+            "isAuthoritative": false,
+            "size": 44024656,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2020-11-12T00:51:35Z",
+                "lastModifiedDateTime": "2020-11-12T00:51:35Z"
+            },
+            "folder": {
+                "childCount": 14,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2021-03-13T13:22:31Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-2DE201000000},180\"",
+            "id": "C64D3600679F709F!123437",
+            "lastModifiedDateTime": "2021-10-05T01:08:49Z",
+            "name": "Software",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!123437",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-2DE201000000},0\"",
+            "isAuthoritative": false,
+            "size": 34374602169,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2021-03-13T13:22:31Z",
+                "lastModifiedDateTime": "2021-10-05T01:08:49Z"
+            },
+            "folder": {
+                "childCount": 22,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2025-07-15T13:28:55Z",
+            "eTag": "\"{867C947C-A6B4-4E67-9B8B-781A624D7423},1\"",
+            "id": "C64D3600679F709F!s867c947ca6b44e679b8b781a624d7423",
+            "lastModifiedDateTime": "2025-07-15T13:28:55Z",
+            "name": "Thiet ke",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!s867c947ca6b44e679b8b781a624d7423",
+            "cTag": "\"c:{867C947C-A6B4-4E67-9B8B-781A624D7423},0\"",
+            "isAuthoritative": false,
+            "size": 574120336,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2025-07-15T13:28:55Z",
+                "lastModifiedDateTime": "2025-07-15T13:28:55Z"
+            },
+            "folder": {
+                "childCount": 14,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2020-05-29T01:02:52Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-2D7F00000000},184\"",
+            "id": "C64D3600679F709F!32557",
+            "lastModifiedDateTime": "2026-05-09T14:42:50Z",
+            "name": "VNPT",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!32557",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-2D7F00000000},0\"",
+            "isAuthoritative": false,
+            "size": 4402402426,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "application": {
+                    "id": "865367a6-9c28-4844-88ce-259d34dbabae",
+                    "displayName": "i:0i.t|ms.sp.ext|865367a6-9c28-4844-88ce-259d34dbabae@9188040d-6c67-4c5b-b112-36a304b66dad"
+                },
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2020-05-29T01:02:52Z",
+                "lastModifiedDateTime": "2026-05-09T14:42:50Z"
+            },
+            "folder": {
+                "childCount": 48,
+                "view": {
+                    "sortBy": "lastModifiedDateTime",
+                    "sortOrder": "descending",
+                    "viewType": "thumbnails"
+                }
+            }
+        },
+        {
+            "createdDateTime": "2022-09-12T07:18:15Z",
+            "eTag": "\"{679F709F-3600-204D-80C6-38ED01000000},151\"",
+            "id": "C64D3600679F709F!126264",
+            "lastModifiedDateTime": "2022-11-08T03:46:45Z",
+            "name": "VNPT Tan Chau",
+            "webUrl": "https://onedrive.live.com?cid=C64D3600679F709F&id=C64D3600679F709F!126264",
+            "cTag": "\"c:{679F709F-3600-204D-80C6-38ED01000000},0\"",
+            "isAuthoritative": false,
+            "size": 68413952,
+            "createdBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "lastModifiedBy": {
+                "user": {
+                    "email": "ntbinh.science@hotmail.com",
+                    "id": "C64D3600679F709F",
+                    "displayName": "Thanh Binh Nguyen"
+                }
+            },
+            "parentReference": {
+                "driveType": "personal",
+                "driveId": "C64D3600679F709F",
+                "id": "C64D3600679F709F!sea8cc6beffdb43d7976fbc7da445c639",
+                "name": "Documents",
+                "path": "/drive/root:",
+                "siteId": "ead49062-1a44-4d90-a7f6-cf8be7e1fe80"
+            },
+            "fileSystemInfo": {
+                "createdDateTime": "2022-09-12T07:18:15Z",
+                "lastModifiedDateTime": "2022-11-08T03:46:45Z"
+            },
+            "folder": {
+                "childCount": 7,
+                "view": {
+                    "sortBy": "name",
+                    "sortOrder": "ascending",
+                    "viewType": "thumbnails"
+                }
+            }
+        }
+    ]
+}

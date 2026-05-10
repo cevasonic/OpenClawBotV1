@@ -64,7 +64,7 @@ Mỗi skill tương ứng với 1 giai đoạn cũ:
 | Skill | Mô tả chính | Tương ứng giai đoạn cũ | Ưu tiên | Trạng thái |
 |------------------------|--------------------------------------------------|-------------------------|---------|------------|
 | conkien-core | Vai trò thư ký, tone, gateway mapping, quy tắc vận hành | Giai đoạn 1 | ★★★★★ | Đang làm |
-| conkien-tracking | Nhận forward file → lưu Drive + update Notion + nhật ký tiến độ | Giai đoạn 2 | ★★★★★ | Chưa |
+| conkien-tracking | Nhận forward file → lưu OneDrive + update Notion + nhật ký tiến độ | Giai đoạn 2 | ★★★★★ | Đang làm |
 | conkien-report | Tạo báo cáo tiến độ & lịch sử dự án | Giai đoạn 3 | ★★★★ | Chưa |
 | conkien-reminder | Nhắc dự án chết + đánh giá cơ hội | Giai đoạn 4 | ★★★★ | Chưa |
 | conkien-consult | Daily Digest + tư vấn mở rộng thị trường | Giai đoạn 5 | ★★★ | Chưa |
@@ -157,7 +157,7 @@ Conkien/
 - Tin tưởng 100% → không có thông tin nhạy cảm.
 
 ### 12.9 Quy tắc xử lý ngoại lệ & Vận hành chi tiết
-- Tin nhắn không ngữ cảnh: Nếu gửi file/ảnh không kèm mô tả, AI bắt buộc hỏi lại ngay ("Sếp muốn lưu file này vào dự án nào ạ?").
+- Tin nhắn không ngữ cảnh: Nếu gửi file/ảnh mà không kèm tin nhắn mô tả (hoặc không phải tin nhắn reply vào file đó), OpenClaw TUYỆT ĐỐI không được thực hiện bất kỳ thao tác xử lý nào (không OCR, không phân tích, không mô tả ảnh). Hệ thống chỉ phản hồi DUY NHẤT một câu: "Dạ, anh Bình muốn em làm gì với file này trên **OneDrive** ạ?" và dừng lại chờ lệnh tiếp theo.
 - Dự án liên cấp: Không tồn tại. Mỗi dự án chỉ map với 1 đơn vị duy nhất.
 - Trùng lặp phiên bản: Tự động đổi tên file mới thành _v2, _v3… để lưu trữ lịch sử sửa đổi.
 - Xử lý ảnh/Scan: Ưu tiên chạy OCR để trích xuất văn bản phục vụ tìm kiếm nhanh.

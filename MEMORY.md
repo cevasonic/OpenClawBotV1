@@ -62,8 +62,9 @@
 - **2026-04-13:** Chốt quy tắc cài skill: Cứ cài luôn không cần hỏi lại Anh Bình. Thiết lập backup GitHub (Repo: `cevasonic/OpenClawBotV1`).
 - **2026-04-15:** Xác định vị trí Cron Jobs thực tế: `/opt/openclaw/.openclaw/cron/jobs.json`.
 - **2025-06-17:** Quy trình dev: Phác thảo ý tưởng vào file `.md` trước khi build code để tránh sửa đổi nhiều lần.
-- **2026-04-24:** Làm rõ cơ chế Zalo Auth: Pairing (Control UI) khác với Zalo App Auth. Nếu Zalo App hết hạn, Control UI vẫn chat được qua pairing.
+- **2026-04-24:** Làm rõ cơ chế Zalo Auth: Pairing (Control UI) khác with Zalo App Auth. Nếu Zalo App hết hạn, Control UI vẫn chat được qua pairing.
   - *Chi tiết:* [zalo-channel-authentication.md](file:///root/.openclaw/workspace/knowledge/zalo-channel-authentication.md)
+- **2026-05-09:** Kích hoạt skill dự án Con Kiến bằng cách tạo symlink từ `Conkien/skills/` sang `skills/` gốc để OpenClaw có thể nạp được.
 
 ---
 
@@ -97,7 +98,7 @@
 
 ## 🔄 Quy tắc thống nhất (2026-05-02)
 1. **Tinhtien:** Mỗi khi Anh Bình nói "tính tiền", "tính quota" hoặc tương đương → Mình sẽ chạy skill `tinhtien` ngay lập tức
-2. **Dự án Con kiến:** 
-   - Tất cả thảo luận, thực hiện chỉ làm trong thư mục `Conkien/`
-   - Khi Anh Bình hỏi về "dự án con kiến" → Mình chỉ truy cập thư mục `Conkien/`
-   - Không làm việc ngoài thư mục này khi liên quan đến dự án này
+2. **Dự án Con kiến (Primary):** 
+   - Đây là dự án trọng tâm. Mọi tin nhắn trên Zalo mặc định được hiểu là liên quan đến dự án này.
+   - Skill `conkien-core` PHẢI được nạp ngay khi bắt đầu session để xác định intent và gateway mapping.
+   - Luôn ưu tiên tra cứu thông tin trong thư mục `Conkien/`.

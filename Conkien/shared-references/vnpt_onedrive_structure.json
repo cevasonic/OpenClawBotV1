@@ -1,0 +1,17 @@
+{
+  "root": {
+    "name": "VNPT",
+    "id": "C64D3600679F709F!32557"
+  },
+  "branches": {
+    "Xa Phuong": {
+      "name": "Xa Phuong",
+      "id": "xa_phuong_id_placeholder"
+    },
+    "So Nganh": {
+      "name": "So Nganh",
+      "id": "so_nganh_id_placeholder"
+    }
+  },
+  "dynamic_folders": {}
+}

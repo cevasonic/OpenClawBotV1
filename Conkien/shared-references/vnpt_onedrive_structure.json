@@ -5,13 +5,62 @@
   },
   "branches": {
     "Xa Phuong": {
-      "name": "Xa Phuong",
-      "id": "xa_phuong_id_placeholder"
+      "id": "C64D3600679F709F!sd6584d94bb5b4448b405414e4635c03b",
+      "units": {
+        "Xã Tân Châu": {
+          "id": "C64D3600679F709F!s5baa6c9b686d4e3a88c0271a2d6a950a",
+          "projects": {}
+        },
+        "Phường Khánh Hậu": {
+          "id": "C64D3600679F709F!s3dffc8d1f2f24856afc6dd41daafa699",
+          "projects": {}
+        },
+        "Xã Cần Giuộc": {
+          "id": "C64D3600679F709F!s49d62e8df01f4749b53954384baf0407",
+          "projects": {
+            "Camera": {
+              "id": "C64D3600679F709F!s8eba21d7aad042fdb2856e02c4408bb1"
+            }
+          }
+        },
+        "Xã Nhựt Tảo": {
+          "id": "C64D3600679F709F!s99786e546cfd4dbd8794c866b659cd44",
+          "projects": {
+            "Camera": {
+              "id": "C64D3600679F709F!sd10883400bc74327acf170b4de9099bf"
+            }
+          }
+        },
+        "Xã Đức Lập": {
+          "id": "C64D3600679F709F!se77ac9235f154374863be7803b18495d",
+          "projects": {
+            "Truyền thanh": {
+              "id": "C64D3600679F709F!s1b1b53b77770491a96c72fd1e2d7c71b"
+            }
+          }
+        }
+      }
     },
     "So Nganh": {
-      "name": "So Nganh",
-      "id": "so_nganh_id_placeholder"
+      "id": "C64D3600679F709F!s32028851411247148a471ed0f86ee74d",
+      "units": {
+        "Sở Nội Vụ": {
+          "id": "C64D3600679F709F!s60a60602cf3342a0ae92057c185b7479",
+          "projects": {}
+        },
+        "Sở Xây Dựng": {
+          "id": "C64D3600679F709F!sfa42749df4db4568ae8343408ff97dd7",
+          "projects": {}
+        },
+        "Sở Khoa học Công nghệ": {
+          "id": "C64D3600679F709F!sec41da7900494499a73f770ae4a94595",
+          "projects": {
+            "IOC tỉnh": {
+              "id": "C64D3600679F709F!s5f2415eaab244b0da82687e193d31867"
+            }
+          }
+        }
+      }
     }
-  },
-  "dynamic_folders": {}
+  }
 }

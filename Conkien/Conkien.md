@@ -1,10 +1,10 @@
 # Conkien.md - Dự Án "Con Kiến" (OpenClaw v0.1)
-**Phiên bản:** 1.7 (ngày 09/05/2026)
+**Phiên bản:** 1.11 (ngày 10/05/2026)
 **Tác giả:** Bình (Quản lý dự án CNTT)
-**Thay đổi chính ở v1.7:**
-- Chuyển đổi nền tảng lưu trữ từ Google Drive sang OneDrive theo yêu cầu của Anh Bình.
-- Cập nhật Section 14 (Workflow OneDrive).
-- Đồng bộ hóa toàn bộ các file liên quan (SOUL, USER, SKILL).
+**Thay đổi chính ở v1.11:**
+- Tối ưu hóa hiệu suất (Performance Boost): Áp dụng quy trình **Script-First** trong `conkien-tracking`.
+- Loại bỏ các bước AI đọc file cấu trúc (`vnpt_onedrive_structure.json`) thủ công, chuyển toàn bộ logic tra cứu vào script Python.
+- Tích hợp Branch ID trực tiếp vào SKILL.md để AI phản xạ nhanh hơn trong việc phân loại.
 
 **Mục đích file:** Đây là Master Plan tổng hợp toàn bộ dự án "Con Kiến". Mọi quyết định phát triển skill đều dựa vào file này trước khi triển khai vào OpenClaw chính thức.
 
@@ -64,7 +64,7 @@ Mỗi skill tương ứng với 1 giai đoạn cũ:
 | Skill | Mô tả chính | Tương ứng giai đoạn cũ | Ưu tiên | Trạng thái |
 |------------------------|--------------------------------------------------|-------------------------|---------|------------|
 | conkien-core | Vai trò thư ký, tone, gateway mapping, quy tắc vận hành | Giai đoạn 1 | ★★★★★ | Đang làm |
-| conkien-tracking | Nhận forward file → lưu OneDrive + update Notion + nhật ký tiến độ | Giai đoạn 2 | ★★★★★ | Đang làm |
+| conkien-tracking | Nhận forward file → lưu OneDrive (Tạm dừng Notion theo yêu cầu v1.10) | Giai đoạn 2 | ★★★★★ | Đang làm |
 | conkien-report | Tạo báo cáo tiến độ & lịch sử dự án | Giai đoạn 3 | ★★★★ | Chưa |
 | conkien-reminder | Nhắc dự án chết + đánh giá cơ hội | Giai đoạn 4 | ★★★★ | Chưa |
 | conkien-consult | Daily Digest + tư vấn mở rộng thị trường | Giai đoạn 5 | ★★★ | Chưa |
@@ -156,21 +156,24 @@ Conkien/
 ### 12.8 Bảo mật
 - Tin tưởng 100% → không có thông tin nhạy cảm.
 
-### 12.9 Quy tắc xử lý ngoại lệ & Vận hành chi tiết
-- Tin nhắn không ngữ cảnh: Nếu gửi file/ảnh mà không kèm tin nhắn mô tả (hoặc không phải tin nhắn reply vào file đó), OpenClaw TUYỆT ĐỐI không được thực hiện bất kỳ thao tác xử lý nào (không OCR, không phân tích, không mô tả ảnh). Hệ thống chỉ phản hồi DUY NHẤT một câu: "Dạ, anh Bình muốn em làm gì với file này trên **OneDrive** ạ?" và dừng lại chờ lệnh tiếp theo.
-- Dự án liên cấp: Không tồn tại. Mỗi dự án chỉ map với 1 đơn vị duy nhất.
-- Trùng lặp phiên bản: Tự động đổi tên file mới thành _v2, _v3… để lưu trữ lịch sử sửa đổi.
-- Xử lý ảnh/Scan: Ưu tiên chạy OCR để trích xuất văn bản phục vụ tìm kiếm nhanh.
-- File biểu mẫu: AI tự động trích xuất từ kho file mẫu có sẵn trên OneDrive khi cần soạn thảo.
-- Xử lý Excel: AI chỉ tinh chỉnh định dạng và nhập liệu cơ bản, không xử lý các file có Macro phức tạp.
-- Ghi âm (Voice note): Hiện tại chưa cần tính năng chuyển đổi giọng nói thành văn bản.
+### 12.9 Quy tắc vận hành Passive Mode & Xử lý ngoại lệ (CẬP NHẬT v1.8)
+- **Chế độ Passive Mode (Bắt buộc):** Nếu gửi file/ảnh mà không kèm tin nhắn mô tả (hoặc không phải tin nhắn reply vào file đó), OpenClaw **TUYỆT ĐỐI KHÔNG** được thực hiện bất kỳ thao tác xử lý nào (không đọc nội dung, không chạy OCR, không mô tả ảnh). Phản hồi DUY NHẤT: "Dạ, anh Bình muốn em làm gì với file này trên **OneDrive** ạ?" và dừng lại.
+- **Quy tắc "Lưu không đọc":** Khi nhận lệnh lưu file (ví dụ: "Lưu vào X xã Y"), OpenClaw chỉ thực hiện upload lên OneDrive và cập nhật Notion. **CẤM** việc tự ý mở file (`view_file`) hoặc đọc nội dung bên trong để "hiểu" file nếu không được yêu cầu. Điều này giúp tiết kiệm token và tăng tốc độ xử lý.
+- **Xử lý ảnh/Scan:** **KHÔNG** tự động chạy OCR khi lưu. Chỉ chạy OCR khi Anh Bình yêu cầu: "Đọc file này", "Trích xuất văn bản", hoặc "Tóm tắt nội dung".
+- **Dự án liên cấp:** Không tồn tại. Mỗi dự án chỉ map với 1 đơn vị duy nhất.
+- **Trùng lặp phiên bản:** Tự động đổi tên file mới thành _v2, _v3…
+- **File biểu mẫu:** AI tự động trích xuất từ kho file mẫu có sẵn trên OneDrive khi cần soạn thảo.
+- **Tách biệt OneDrive & Notion (Mới v1.10):** Theo yêu cầu của Anh Bình, nhiệm vụ lưu trữ file và cập nhật Notion phải được tách bạch. Hiện tại, skill `conkien-tracking` **CHỈ** thực hiện lưu OneDrive. Việc cập nhật Notion sẽ được kích hoạt thủ công hoặc tách thành một lệnh riêng biệt trong tương lai.
+- **Tối ưu hóa hiệu suất (Script-First) (Mới v1.11):** Để giảm latency, OpenClaw không đọc file cấu trúc JSON thủ công. Logic tra cứu ID và mapping được giao toàn bộ cho script `onedrive_helper.py`. AI chỉ cần xác định tên đơn vị và nhánh (Xa Phuong/So Nganh) rồi gọi lệnh ngay lập tức.
+- **Xử lý Excel:** AI chỉ tinh chỉnh định dạng và nhập liệu cơ bản.
+- **Ghi âm (Voice note):** Hiện tại chưa hỗ trợ.
 
 ### 12.10 Tính cách của Bình & Tone của OpenClaw
 - Tính cách Bình: Nóng tính, dễ nổi giận, nhắn tin cụt ngủn, vắn tắt.
 - Tone của OpenClaw: Nhẹ nhàng, lịch sự, đủ ý, rõ ràng (không cụt ngủn như Bình).
 
 ### 12.11 Xử lý batch file
-- Nếu forward nhiều file cùng lúc và không rõ → hỏi lại ngay (theo nguyên tắc Karpathy).
+- Khi nhận nhiều file: Chỉ hỏi 1 câu duy nhất cho cả batch nếu không có lệnh. Nếu có lệnh lưu batch → lưu tất cả mà không đọc nội dung từng file.
 
 ## 13. Cấu trúc thiết kế Notion Database
 Để đảm bảo Simplicity First, hệ thống vẫn dùng 2 Database cốt lõi:
@@ -199,34 +202,33 @@ Tự động hóa việc phân loại và lưu trữ tài liệu vào OneDrive m
 
 ### 📂 Cấu trúc Thư mục Chuẩn
 - Root: VNPT (ID lưu trong vnpt_onedrive_structure.json)
-- Nhánh 1: Xa Phuong → {Tên Xã/Phường} (Ví dụ: Xã Tân Châu)
-- Nhánh 2: So Nganh → {Tên Sở/Ngành} (Ví dụ: Sở Y Tế)
+- Nhánh 1: Xa Phuong → {Tên Xã/Phường} → {Tên Dự án} (Ví dụ: Xã Tân Châu/Camera)
+- Nhánh 2: So Nganh → {Tên Sở/Ngành} → {Tên Dự án} (Ví dụ: Sở Y Tế/Chống dịch)
 
 ### 🛠 Quy trình Thao tác Tự động
-Khi Anh Bình gửi một file và yêu cầu lưu (ví dụ: "Lưu vào Xã Tân Châu" hoặc "Lưu vào Sở Y Tế"):
+Khi Anh Bình gửi một file và yêu cầu lưu (ví dụ: "Lưu vào Xã Tân Châu" hoặc "Lưu vào Camera Xã Tân Châu"):
 
 1. Phân tích yêu cầu:
  - Nhận diện từ khóa để chọn nhánh:
  - Nếu chứa "Xã" hoặc "Phường" → Chọn nhánh Xa Phuong.
  - Nếu chứa "Sở" hoặc "Ngành" → Chọn nhánh So Nganh.
- - Trích xuất tên đơn vị cụ thể (ví dụ: Tan Chau, Y Te).
+ - Trích xuất tên đơn vị cụ thể (ví dụ: Tân Châu, Cần Giuộc).
+ - Trích xuất tên dự án cụ thể nếu có (ví dụ: Camera, IOC).
 
 2. Tra cứu ID:
  - Đọc file vnpt_onedrive_structure.json để lấy ID của nhánh tương ứng (Xa Phuong hoặc So Nganh).
 
 3. Kiểm tra/Tạo Thư mục Đích:
  - Truy cập vào thư mục nhánh.
- - Tìm kiếm thư mục có tên {Tên đơn vị}.
- - Nếu tìm thấy: Lấy ID thư mục đó.
- - Nếu KHÔNG tìm thấy:
- - Tạo thư mục mới → Lưu ID mới vào dynamic_folders trong vnpt_onedrive_structure.json để dùng cho lần sau.
- - Lấy ID vừa tạo.
+ - Tìm kiếm thư mục có tên {Tên đơn vị}. Nếu KHÔNG thấy → Tạo mới.
+ - Tìm kiếm thư mục có tên {Tên dự án} bên trong thư mục {Tên đơn vị}. Nếu KHÔNG thấy → Tạo mới.
+ - Lấy ID thư mục cuối cùng ({Tên dự án} hoặc {Tên đơn vị} nếu không có dự án).
 
 4. Thực hiện Upload:
  - Upload file vào ID cuối cùng.
 
 ### 📝 Ghi chú Kỹ thuật (API Gateway)
-- Base URL: https://gateway.maton.ai/onedrive/v1/
+- Base URL: https://gateway.maton.ai/one-drive/v1.0/
 - Authentication: Sử dụng MATON_API_KEY.
 - MimeType Folder: folder.
 

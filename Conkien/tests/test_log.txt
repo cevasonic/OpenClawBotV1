@@ -1,0 +1,9 @@
+Checking folder for 'Phường Khánh Hậu'...
+Creating folder for 'Phường Khánh Hậu'...
+Config updated for unit: Phường Khánh Hậu
+Uploading 'tests/test_upload.txt' to 'Phường Khánh Hậu'...
+{
+  "id": "C64D3600679F709F!sd29f087631e64694acebe3379b051bad",
+  "name": "test_upload.txt",
+  "webUrl": "https://1drv.ms/t/c/c64d3600679f709f/IQB2CJ_S5jGURqzr4zebBRutAZjmJNcB-z0VgLoGiqYRGnk"
+}

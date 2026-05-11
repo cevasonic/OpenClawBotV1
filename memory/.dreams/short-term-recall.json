@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-10T13:13:28.726Z",
+  "updatedAt": "2026-05-10T15:20:23.175Z",
   "entries": {
     "memory:memory/2026-04-13.md:159:223": {
       "key": "memory:memory/2026-04-13.md:159:223",
@@ -259,16 +259,17 @@
       "endLine": 443,
       "source": "memory",
       "snippet": "user: Conversation info (untrusted metadata): ```json { \"message_id\": \"689\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Wed 2026-04-15 09:46 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Hiện tại vẫn chưa phải mô hình từ openrouter token là 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 URL là https://openrouter.ai/api/v1 user: Conversation info (untrusted metadata): ```json { \"message_id\": \"690\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Wed 2026-04-15 09:58 GMT+7\" } ``` Sender (untru",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.349461606144905,
+      "totalScore": 1.7951644808053968,
       "maxScore": 0.4563362747430801,
       "firstRecalledAt": "2026-05-09T13:49:39.400Z",
-      "lastRecalledAt": "2026-05-10T13:13:28.726Z",
+      "lastRecalledAt": "2026-05-10T15:20:23.175Z",
       "queryHashes": [
         "f4cc616d1928",
-        "78993778d22b"
+        "78993778d22b",
+        "d01909ac2b6a"
       ],
       "recallDays": [
         "2026-05-09",
@@ -463,6 +464,130 @@
       ],
       "recallDays": [
         "2026-05-09",
+        "2026-05-10"
+      ],
+      "conceptTags": [
+        "router",
+        "google/gemma-4-31b-it",
+        "message-id",
+        "sender-id",
+        "hãy",
+        "thêm",
+        "model",
+        "google"
+      ]
+    },
+    "memory:memory/2026-04-15.md:978:1009": {
+      "key": "memory:memory/2026-04-15.md:978:1009",
+      "path": "memory/2026-04-15.md",
+      "startLine": 978,
+      "endLine": 1009,
+      "source": "memory",
+      "snippet": "Mình vừa kiểm tra thông tin hiện tại cho phiên chat của mình: - **Model đang dùng:** `trollllm/gemini-3.1-pro` - **Tokens đã tiêu thụ (trong phiên này):** Khoảng 2.6k token đầu vào / 43 token đầu ra. - **Chi phí tạm tính (phiên này):** 0$ (do giá token hiện tại rất rẻ hoặc đang miễn phí từ provider `trollllm`). - **Context window:** Mới dùng 1% (2.7k / 200k). Tuy nhiên, đây chỉ là thống kê **cho riêng phiên chat này**. Nếu anh dùng API key riêng (ví dụ của Google, OpenAI, Anthropic), anh sẽ cần phải đăng nhập vào trang quản lý tài khoản của hãng (Google AI Studio, OpenAI Platform, v.v.) thì mới xem được tổng số credit (hoặc hạn mức quota) còn lại trong tài khoản của anh. OpenClaw chỉ tính",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4528361111879348,
+      "maxScore": 0.4528361111879348,
+      "firstRecalledAt": "2026-05-10T15:20:23.175Z",
+      "lastRecalledAt": "2026-05-10T15:20:23.175Z",
+      "queryHashes": [
+        "d01909ac2b6a"
+      ],
+      "recallDays": [
+        "2026-05-10"
+      ],
+      "conceptTags": [
+        "openai",
+        "trollllm/gemini-3.1-pro",
+        "2.6k",
+        "2.7k",
+        "v.v",
+        "mình",
+        "vừa",
+        "kiểm"
+      ]
+    },
+    "memory:memory/2026-04-15.md:226:276": {
+      "key": "memory:memory/2026-04-15.md:226:276",
+      "path": "memory/2026-04-15.md",
+      "startLine": 226,
+      "endLine": 276,
+      "source": "memory",
+      "snippet": "assistant: <final>Chào Anh Bình, mình đã sẵn sàng cho phiên làm việc mới rồi ạ 💡. Xin lưu ý một chút là hệ thống đang chạy model `google/gemini-3.1-pro-preview` thay cho model mặc định `openrouter/stepfun/step-3.5-flash` nhé anh. Hôm nay anh muốn tiếp tục tối ưu bot Discord, cập nhật thêm văn bản pháp luật hay bắt tay vào một công việc nào khác ạ?</final> user: Conversation info (untrusted metadata): ```json { \"message_id\": \"971\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Wed 2026-04-15 21:32 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Hãy thêm",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45001524388790126,
+      "maxScore": 0.45001524388790126,
+      "firstRecalledAt": "2026-05-10T15:20:23.175Z",
+      "lastRecalledAt": "2026-05-10T15:20:23.175Z",
+      "queryHashes": [
+        "d01909ac2b6a"
+      ],
+      "recallDays": [
+        "2026-05-10"
+      ],
+      "conceptTags": [
+        "router",
+        "google/gemini-3.1-pro-preview",
+        "message-id",
+        "sender-id",
+        "final",
+        "chào",
+        "anh",
+        "bình"
+      ]
+    },
+    "memory:memory/2026-04-15.md:1001:1035": {
+      "key": "memory:memory/2026-04-15.md:1001:1035",
+      "path": "memory/2026-04-15.md",
+      "startLine": 1001,
+      "endLine": 1035,
+      "source": "memory",
+      "snippet": "\"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Lượng token đang thống kê đó là tính từ lúc nào assistant: Dạ, lượng token mà mình vừa thống kê là tính từ **đầu phiên chat hiện tại** của hai anh em mình ạ (tức là từ lúc Anh Bình gõ lệnh `/new` hoặc `/reset` vào khoảng 18:10 hôm nay). Mỗi khi Anh Bình bắt đầu một phiên làm việc mới bằng lệnh `/new` hoặc `/reset`, bộ đếm token và chi phí của OpenClaw cho phiên đó sẽ tự động reset về 0. Còn nếu anh cứ chat tiếp trong phiên này thì con số đó sẽ cộng dồn lên ạ. 💡 user: Conversation info (untrusted metadata): ```json { \"message_id\": \"932\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4485283732414245,
+      "maxScore": 0.4485283732414245,
+      "firstRecalledAt": "2026-05-10T15:20:23.175Z",
+      "lastRecalledAt": "2026-05-10T15:20:23.175Z",
+      "queryHashes": [
+        "d01909ac2b6a"
+      ],
+      "recallDays": [
+        "2026-05-10"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "label",
+        "thanh",
+        "binh",
+        "nguyen",
+        "name",
+        "lượng"
+      ]
+    },
+    "memory:memory/2026-04-15.md:266:321": {
+      "key": "memory:memory/2026-04-15.md:266:321",
+      "path": "memory/2026-04-15.md",
+      "startLine": 266,
+      "endLine": 321,
+      "source": "memory",
+      "snippet": "Hãy thêm model: \"google/gemma-4-31b-it:free\" vào model ai openrouter và Token là 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 # Session: 2026-04-15 02:59:54 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: 75cb3f3f-f170-4494-abcf-b01e69f9533c - **Source**: telegram ## Conversation Summary assistant: Dạ mình chào Anh Bình! 💡 Mình vẫn đang túc trực đây ạ. Hôm nay Anh Bình có dự án hay vấn đề kỹ thuật nào cần mình xem giúp không? user: Conversation info (untrusted metadata): ```json { \"message_id\": \"678\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Wed 2026-04-15 08:40 GMT+7\" } ``` Sender (untrust",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.44581888616085047,
+      "maxScore": 0.44581888616085047,
+      "firstRecalledAt": "2026-05-10T15:20:23.175Z",
+      "lastRecalledAt": "2026-05-10T15:20:23.175Z",
+      "queryHashes": [
+        "d01909ac2b6a"
+      ],
+      "recallDays": [
         "2026-05-10"
       ],
       "conceptTags": [

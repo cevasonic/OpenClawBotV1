@@ -76,10 +76,11 @@
 ---
 
 ## 🏗️ Dự Án Con Kiến (OpenClaw v0.1)
-- **File gốc:** [Conkien.md](file:///root/.openclaw/workspace/Conkien/Conkien.md) (v1.4 - 30/04/2026).
-- **Mục tiêu:** Thư ký ảo cho quản lý dự án Shane qua Zalo Personal.
+- **File gốc:** [Conkien.md](file:///root/.openclaw/workspace/Conkien/Conkien.md) (v1.11 - 10/05/2026).
+- **Mục tiêu:** Thư ký ảo cho quản lý dự án Shane (Anh Bình) qua Zalo Personal.
 - **Cốt lõi:** Hiểu ngữ cảnh forward, báo cáo tiến độ, nhắc lịch, xử lý văn bản/Excel.
-- **Quy tắc:** Phải hỏi lại nếu không chắc về dự án hoặc file; tone nhẹ nhàng, lịch sự.
+- **LUẬT SẮT (Passive Mode):** Tuyệt đối không đọc file khi không có lệnh. Luôn nhắc đến **OneDrive**. 
+- **QUY TẮC (Lưu không đọc):** Chỉ upload file, không mở file xem nội dung.
 
 ---
 

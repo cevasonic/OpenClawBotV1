@@ -1,17 +1,120 @@
 # Danh sách Đơn vị Tây Ninh (Draft)
 
 ## Xa Phuong
-- Xã Tân Châu
+- Xã Long Thuận
+- Xã Long Chữ
+- Xã Bến Cầu
+- Xã Thạnh Lợi
+- Xã Bình Đức
+- Xã Lương Hoà
+- Xã Bến Lức
+- Xã Mỹ Yên
+- Xã Long Cang
+- Xã Rạch Kiến
+- Xã Mỹ Lệ
+- Xã Tân Lân
+- Xã Cần Đước
+- Xã Long Hựu
+- Xã Phước Lý
+- Xã Mỹ Lộc
+- Xã Cần Giuộc
+- Xã Phước Vĩnh Tây
+- Xã Tân Tập
+- Xã Hảo Đước
+- Xã Phước Vinh
+- Xã Ninh Điền
+- Xã Hòa Hội
+- Xã Châu Thành
+- Xã Lộc Ninh
+- Xã Truông Mít
 - Xã Tân Phú
-- Phường Khánh Hậu
-- Xã Suối Đá
-- Xã Phan
+- Xã Cầu Khởi
+- Xã Dương Minh Châu
 - Xã Hậu Nghĩa
+- Xã Hòa Khánh
+- Xã Đức Lập
+- Xã Mỹ Hạnh
+- Xã Đức Hòa
+- Xã Mỹ Quý
+- Xã Đông Thành
+- Xã Đức Huệ
+- Xã An Ninh
+- Xã Hiệp Hoà
+- Xã Phước Thạnh
+- Phường Gia Lộc
+- Xã Thạnh Đức
+- Phường Gò Dầu
+- Phường Hoà Thành
+- Phường Long Hoa
+- Xã Tuyên Thạnh
+- Xã Bình Hiệp
+- Phường Kiến Tường
+- Xã Bình Hòa
+- Xã Mộc Hóa
+- Xã Thuận Mỹ
+- Xã An Lục Long
+- Xã Tầm Vu
+- Xã Vĩnh Công
+- Phường Long An
+- Phường Tân An
+- Phường Khánh Hậu
+- Xã Mỹ An
+- Xã Tân Lập
+- Xã Trà Vong
+- Xã Thạnh Bình
+- Xã Tân Biên
+- Xã Tân Đông
+- Xã Tân Châu
+- Xã Tân Thành
+- Xã Tân Hòa
+- Xã Tân Hội
+- Phường Ninh Thạnh
+- Phường Tân Ninh
+- Phường Bình Minh
+- Phường Thanh Điền
+- Xã Hậu Thạnh
+- Xã Nhơn Hòa Lập
+- Xã Nhơn Ninh
+- Xã Tân Thạnh
+- Xã Vàm Cỏ
+- Xã Tân Trụ
+- Xã Nhựt Tảo
+- Xã Bình Thành
+- Xã Thạnh Phước
+- Xã Thạnh Hóa
+- Xã Tân Tây
+- Xã Thủ Thừa
+- Xã Mỹ Thạnh
+- Xã Tân Long
+- Xã Hưng Thuận
+- Xã Phước Chỉ
+- Phường Trảng Bàng
+- Phường An Tịnh
+- Xã Hưng Điền
+- Xã Vĩnh Thạnh
+- Xã Tân Hưng
+- Xã Vĩnh Châu
+- Xã Tuyên Bình
+- Xã Vĩnh Hưng
+- Xã Khánh Hưng
 - (Đang cập nhật thêm...)
 
 ## So Nganh
-- Sở Y Tế
+- Sở Khoa học và Công nghệ
+- Sở Y tế
 - Sở Giáo dục và Đào tạo
+- Sở Nông nghiệp và Môi trường
+- Sở Văn hóa, Thể thao và Du lịch
+- Sở Nội vụ
+- Sở Xây dựng
 - Sở Công Thương
-- Sở Nội Vụ
+- Sở Dân tộc và Tôn giáo
+- Sở Tài chính
+- Thanh tra tỉnh
+- Sở Tư pháp
+- Ban Quản lý khu Kinh tế
+- Sở Ngoại vụ
+- Văn phòng UBND tỉnh
+- Công an tỉnh
+- Quân sự tỉnh
 - (Đang cập nhật thêm...)

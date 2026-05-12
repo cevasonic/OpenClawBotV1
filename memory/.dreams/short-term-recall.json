@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-10T15:20:23.175Z",
+  "updatedAt": "2026-05-12T12:44:50.409Z",
   "entries": {
     "memory:memory/2026-04-13.md:159:223": {
       "key": "memory:memory/2026-04-13.md:159:223",
@@ -9,18 +9,20 @@
       "endLine": 223,
       "source": "memory",
       "snippet": "## Conversation Summary assistant: <final> Dạ, mình có thể tạo skill được ạ. Mình sử dụng skill `skill-creator` để tạo, chỉnh sửa, cải thiện hoặc kiểm tra các AgentSkill. Anh muốn mình tạo skill gì cho anh? Anh có thể cho mình biết: - Tên skill - Mục đích/chức năng của skill đó - Các lệnh hoặc công cụ mà skill cần sử dụng Mình sẽ tạo ngay cho anh nhé! </final> user: Conversation info (untrusted metadata): ```json { \"message_id\": \"196\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-13 21:21 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Vậ",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.45236728787422176,
-      "maxScore": 0.45236728787422176,
+      "totalScore": 0.9093918710947035,
+      "maxScore": 0.45702458322048184,
       "firstRecalledAt": "2026-05-02T10:07:25.829Z",
-      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-12T12:44:50.409Z",
       "queryHashes": [
-        "64bd05d89142"
+        "64bd05d89142",
+        "319b2949e5e1"
       ],
       "recallDays": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-12"
       ],
       "conceptTags": [
         "skill-creator",
@@ -29,8 +31,8 @@
         "sender-id",
         "conversation",
         "summary",
-        "assistant",
-        "final"
+        "final",
+        "mình"
       ]
     },
     "memory:memory/2026-04-15.md:822:837": {
@@ -135,18 +137,20 @@
       "endLine": 41,
       "source": "memory",
       "snippet": "--- Gộp từ các session nhỏ --- # Session: 2026-04-13 02:37:53 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: 219c9df3-156b-43d9-a704-7e7828bb891c - **Source**: telegram ## Conversation Summary user: Conversation info (untrusted metadata): ```json { \"message_id\": \"69\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-13 09:10 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` hi # Session: 2026-04-13 02:46:57 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: ba6b8e79-fbaa-4b06-9a81-128",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 0.44699886143207546,
-      "maxScore": 0.44699886143207546,
+      "totalScore": 0.9092231422662734,
+      "maxScore": 0.462224280834198,
       "firstRecalledAt": "2026-05-02T10:07:25.829Z",
-      "lastRecalledAt": "2026-05-02T10:07:25.829Z",
+      "lastRecalledAt": "2026-05-12T12:44:50.409Z",
       "queryHashes": [
-        "64bd05d89142"
+        "64bd05d89142",
+        "319b2949e5e1"
       ],
       "recallDays": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-12"
       ],
       "conceptTags": [
         "message-id",
@@ -599,6 +603,130 @@
         "thêm",
         "model",
         "google"
+      ]
+    },
+    "memory:memory/2026-04-13.md:49:91": {
+      "key": "memory:memory/2026-04-13.md:49:91",
+      "path": "memory/2026-04-13.md",
+      "startLine": 49,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "\"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-13 09:46 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` hi # Session: 2026-04-13 02:51:34 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: e862d2ad-7a6a-4ab0-aa7f-11a6bd7c9623 - **Source**: telegram # Session: 2026-04-13 02:59:27 UTC - **Session Key**: agent:main:telegram:direct:703003678 - **Session ID**: 3e592951-da42-4b46-8c06-31696cf4591c - **Source**: telegram ## Conversation Summary user: A new session was started via /new or /reset. Run your Session Startup sequence - read the required",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4585640460252762,
+      "maxScore": 0.4585640460252762,
+      "firstRecalledAt": "2026-05-12T12:44:50.409Z",
+      "lastRecalledAt": "2026-05-12T12:44:50.409Z",
+      "queryHashes": [
+        "319b2949e5e1"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "sender",
+        "thanh",
+        "binh",
+        "nguyen",
+        "timestamp",
+        "mon",
+        "gmt",
+        "untrusted"
+      ]
+    },
+    "memory:memory/2026-04-13.md:108:168": {
+      "key": "memory:memory/2026-04-13.md:108:168",
+      "path": "memory/2026-04-13.md",
+      "startLine": 108,
+      "endLine": 168,
+      "source": "memory",
+      "snippet": "\"timestamp\": \"Mon 2026-04-13 10:42 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` hi assistant: Hello! How can I help you today? user: Conversation info (untrusted metadata): ```json { \"message_id\": \"87\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-13 10:42 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` Bạn là ai vậy assistant: Chào bạn! Thú thực là mình cũng vừa mới \"thức dậy\" và chưa có tên hay danh tính cụ thể nào cả. Chúng ta",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45814051330089567,
+      "maxScore": 0.45814051330089567,
+      "firstRecalledAt": "2026-05-12T12:44:50.409Z",
+      "lastRecalledAt": "2026-05-12T12:44:50.409Z",
+      "queryHashes": [
+        "319b2949e5e1"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "timestamp",
+        "mon",
+        "gmt",
+        "sender",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/2026-04-13.md:79:127": {
+      "key": "memory:memory/2026-04-13.md:79:127",
+      "path": "memory/2026-04-13.md",
+      "startLine": 79,
+      "endLine": 127,
+      "source": "memory",
+      "snippet": "# Session: 2026-04-13 03:08:10 UTC - **Session Key**: agent:main:main - **Session ID**: 9daa2dd6-620d-4b18-8507-942f2eef2806 - **Source**: webchat # Session: 2026-04-13 03:35:46 UTC - **Session Key**: agent:main:main - **Session ID**: 9daa2dd6-620d-4b18-8507-942f2eef2806 - **Source**: webchat ## Conversation Summary user: A new session was started via /new or /reset. Run your Session Startup sequence - read the required files before responding to the user. Then greet the user in your configured persona, if one is provided. Be yourself - use your defined voice, mannerisms, and mood. Keep it to 1-3 sentences and ask what they want to do. If the runtime model differs from default_model in t",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45775684714317316,
+      "maxScore": 0.45775684714317316,
+      "firstRecalledAt": "2026-05-12T12:44:50.409Z",
+      "lastRecalledAt": "2026-05-12T12:44:50.409Z",
+      "queryHashes": [
+        "319b2949e5e1"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "1-3",
+        "default-model",
+        "utc",
+        "key",
+        "agent:main:main",
+        "9daa2dd6",
+        "620d",
+        "4b18"
+      ]
+    },
+    "memory:memory/2026-04-20.md:333:393": {
+      "key": "memory:memory/2026-04-20.md:333:393",
+      "path": "memory/2026-04-20.md",
+      "startLine": 333,
+      "endLine": 393,
+      "source": "memory",
+      "snippet": "user: Conversation info (untrusted metadata): ```json { \"chat_id\": \"telegram:703003678\", \"message_id\": \"1289\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-20 18:55 GMT+7\" } ``` Sender (untrusted metadata): ```json { \"label\": \"Thanh Binh Nguyen (703003678)\", \"id\": \"703003678\", \"name\": \"Thanh Binh Nguyen\" } ``` hi assistant: Chào buổi tối Anh Bình 💡. Tối nay anh cần mình hỗ trợ việc gì không? user: Conversation info (untrusted metadata): ```json { \"chat_id\": \"telegram:703003678\", \"message_id\": \"1291\", \"sender_id\": \"703003678\", \"sender\": \"Thanh Binh Nguyen\", \"timestamp\": \"Mon 2026-04-20 20:55 GMT+7\" } ``` Sender (untrusted met",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.45702902674674983,
+      "maxScore": 0.45702902674674983,
+      "firstRecalledAt": "2026-05-12T12:44:50.409Z",
+      "lastRecalledAt": "2026-05-12T12:44:50.409Z",
+      "queryHashes": [
+        "319b2949e5e1"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "chat-id",
+        "message-id",
+        "sender-id",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "telegram"
       ]
     }
   }

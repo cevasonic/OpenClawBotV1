@@ -38,6 +38,14 @@
               "id": "C64D3600679F709F!s1b1b53b77770491a96c72fd1e2d7c71b"
             }
           }
+        },
+        "Phường Ninh Thạnh": {
+          "id": "C64D3600679F709F!s08d2a6f48aa34b9fbc5dba21c4b57a7d",
+          "projects": {
+            "Chuyển đổi số": {
+              "id": "C64D3600679F709F!s9815ef7a52fb4d52b0b12b5e5c7c0654"
+            }
+          }
         }
       }
     },

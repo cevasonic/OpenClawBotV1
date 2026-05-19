@@ -67,6 +67,14 @@
               "id": "C64D3600679F709F!s5f2415eaab244b0da82687e193d31867"
             }
           }
+        },
+        "Hội đồng nhân dân": {
+          "id": "C64D3600679F709F!scfe4602791834523af3c8e816b706dce",
+          "projects": {
+            "Văn bản": {
+              "id": "C64D3600679F709F!sd4f22ae06ad341bdae0ba034ab870432"
+            }
+          }
         }
       }
     }

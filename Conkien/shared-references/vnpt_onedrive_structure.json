@@ -46,6 +46,22 @@
               "id": "C64D3600679F709F!s9815ef7a52fb4d52b0b12b5e5c7c0654"
             }
           }
+        },
+        "Phường Thanh Điền": {
+          "id": "C64D3600679F709F!s01e09eec15a54b1e98ce5c08f6bb44bf",
+          "projects": {
+            "CDS": {
+              "id": "C64D3600679F709F!s7686acf8ba51457db53e2df0ab914da7"
+            }
+          }
+        },
+        "Xã Phước Chỉ": {
+          "id": "C64D3600679F709F!s1d6b471f1d80463c92c30045f3717c51",
+          "projects": {
+            "Đèn chiếu sáng": {
+              "id": "C64D3600679F709F!s980487c6ebd34a6bb626ed75f3f09f2a"
+            }
+          }
         }
       }
     },

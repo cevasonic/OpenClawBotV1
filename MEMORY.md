@@ -65,6 +65,7 @@
 - **2026-04-24:** Làm rõ cơ chế Zalo Auth: Pairing (Control UI) khác with Zalo App Auth. Nếu Zalo App hết hạn, Control UI vẫn chat được qua pairing.
   - *Chi tiết:* [zalo-channel-authentication.md](file:///root/.openclaw/workspace/knowledge/zalo-channel-authentication.md)
 - **2026-05-09:** Kích hoạt skill dự án Con Kiến bằng cách tạo symlink từ `Conkien/skills/` sang `skills/` gốc để OpenClaw có thể nạp được.
+- **2026-05-31:** Khắc phục triệt để lỗi Cron Job Thư viện Pháp luật bằng cách: (1) đặt shebang `/usr/bin/python3` tuyệt đối cho các script, (2) dọn các tệp HTML debug lớn (>300 KB) ra ngoài workspace để tránh quá tải token, và (3) cấu hình model fallbacks cho OpenClaw để tăng độ bền bỉ khi gọi API.
 
 ---
 

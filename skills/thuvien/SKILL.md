@@ -42,7 +42,7 @@ pip3 install --break-system-packages requests beautifulsoup4 scrapling[all]>=0.4
 Or if using venv:
 
 ```bash
-python3 -m venv venv
+/usr/bin/python3 -m venv venv
 source venv/bin/activate
 pip install requests beautifulsoup4 scrapling[all]>=0.4.6
 ```
@@ -50,7 +50,7 @@ pip install requests beautifulsoup4 scrapling[all]>=0.4.6
 ### Download Browsers (For Scrapling)
 
 ```bash
-python3 -m playwright install
+/usr/bin/python3 -m playwright install
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ python3 -m playwright install
 ### Get Latest 10 Legal Documents
 
 ```bash
-python3 scripts/scrape_latest.py
+/usr/bin/python3 scripts/scrape_latest.py
 ```
 
 Output:
@@ -76,13 +76,13 @@ Output:
 ### Search for Specific Documents
 
 ```bash
-python3 scripts/search_documents.py "luật lao động"
+/usr/bin/python3 scripts/search_documents.py "luật lao động"
 ```
 
 ### Parse HTML Output
 
 ```bash
-python3 scripts/parse_html.py /path/to/downloaded.html
+/usr/bin/python3 scripts/parse_html.py /path/to/downloaded.html
 ```
 
 ## How It Works
@@ -135,32 +135,32 @@ Return as JSON, CSV, or formatted text:
 
 ```bash
 # Quyết định (Decisions)
-python3 scripts/search_documents.py --type "Quyết định"
+/usr/bin/python3 scripts/search_documents.py --type "Quyết định"
 
 # Công văn (Official Letters)
-python3 scripts/search_documents.py --type "Công văn"
+/usr/bin/python3 scripts/search_documents.py --type "Công văn"
 
 # Dự thảo (Drafts)
-python3 scripts/search_documents.py --type "Dự thảo"
+/usr/bin/python3 scripts/search_documents.py --type "Dự thảo"
 ```
 
 ### Filter by Date Range
 
 ```bash
-python3 scripts/search_documents.py --from "2026-04-01" --to "2026-04-15"
+/usr/bin/python3 scripts/search_documents.py --from "2026-04-01" --to "2026-04-15"
 ```
 
 ### Export Results
 
 ```bash
 # JSON
-python3 scripts/scrape_latest.py --format json > documents.json
+/usr/bin/python3 scripts/scrape_latest.py --format json > documents.json
 
 # CSV
-python3 scripts/scrape_latest.py --format csv > documents.csv
+/usr/bin/python3 scripts/scrape_latest.py --format csv > documents.csv
 
 # Markdown
-python3 scripts/scrape_latest.py --format markdown > documents.md
+/usr/bin/python3 scripts/scrape_latest.py --format markdown > documents.md
 ```
 
 ## Troubleshooting
@@ -171,10 +171,10 @@ Website may be slow or blocking requests. Try:
 
 ```bash
 # Increase timeout
-python3 scripts/scrape_latest.py --timeout 60
+/usr/bin/python3 scripts/scrape_latest.py --timeout 60
 
 # Use browser mode instead of GET
-python3 scripts/scrape_latest.py --mode fetch
+/usr/bin/python3 scripts/scrape_latest.py --mode fetch
 ```
 
 ### "No documents found"
@@ -193,7 +193,7 @@ curl -s https://www.thuvienphapluat.vn/ | head -100
 Disable SSL verification (not recommended for production):
 
 ```bash
-python3 scripts/scrape_latest.py --no-verify-ssl
+/usr/bin/python3 scripts/scrape_latest.py --no-verify-ssl
 ```
 
 ## Performance

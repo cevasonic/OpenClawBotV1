@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Script để hiển thị tiêu đề đầy đủ của 10 văn bản pháp luật mới nhất từ thuvienphapluat.vn
 """

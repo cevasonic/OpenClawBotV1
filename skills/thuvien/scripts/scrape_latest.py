@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Scrape văn bản mới nhất từ thuvienphapluat.vn
 Chỉ lấy các văn bản MỚI so với lần xem trước (Delta tracking).

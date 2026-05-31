@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Script scrape realtime từ thuvienphapluat.vn - Lấy tiêu đề ĐẦY ĐỦ SẠCH
 KHÔNG dùng cache, KHÔNG cắt bỏ tiêu đề

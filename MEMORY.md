@@ -66,6 +66,7 @@
   - *Chi tiết:* [zalo-channel-authentication.md](file:///root/.openclaw/workspace/knowledge/zalo-channel-authentication.md)
 - **2026-05-09:** Kích hoạt skill dự án Con Kiến bằng cách tạo symlink từ `Conkien/skills/` sang `skills/` gốc để OpenClaw có thể nạp được.
 - **2026-05-31:** Khắc phục triệt để lỗi Cron Job Thư viện Pháp luật bằng cách: (1) đặt shebang `/usr/bin/python3` tuyệt đối cho các script, (2) dọn các tệp HTML debug lớn (>300 KB) ra ngoài workspace để tránh quá tải token, và (3) cấu hình model fallbacks cho OpenClaw để tăng độ bền bỉ khi gọi API.
+- **2026-06-07:** Khắc phục lỗi Cron Job Thư viện Pháp luật (lỗi Agent couldn't generate a response) bằng cách chuyển model của cron job từ mặc định (`nvidia/nemotron-3-super-120b-a12b:free` - không ổn định khi tải context lớn) sang model trả phí siêu rẻ và cực kỳ ổn định `openrouter-deepseek/deepseek/deepseek-v4-flash` thông qua lệnh `openclaw cron edit`. Kết quả kiểm tra thủ công đã cho trạng thái thành công (`status: ok`).
 
 ---
 

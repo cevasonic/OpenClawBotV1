@@ -85,6 +85,19 @@ Output:
 /usr/bin/python3 scripts/parse_html.py /path/to/downloaded.html
 ```
 
+### Direct Telegram Cron Execution (No LLM)
+
+To run the scraper and send results directly to Telegram without using an LLM (saving tokens and improving stability), use the wrapper bash script:
+
+```bash
+/root/.openclaw/workspace/skills/thuvien/scripts/cron_telegram.sh
+```
+
+This is configured in the system crontab (`crontab -e`):
+```cron
+0 7 * * * /root/.openclaw/workspace/skills/thuvien/scripts/cron_telegram.sh > /dev/null 2>&1
+```
+
 ## How It Works
 
 ### Step 1: Scrape HTML

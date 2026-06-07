@@ -70,13 +70,6 @@
 
 ---
 
-## 💰 Quản lý Tài chính & Chi tiêu
-- **LUẬT CỨNG:** Toàn bộ dữ liệu thu chi, chi tiêu hàng ngày BẮT BUỘC phải lưu trữ theo hệ thống trong thư mục `finance/`. 
-- **TUYỆT ĐỐI KHÔNG** ghi tạm vào các file memory ngày (`memory/YYYY-MM-DD.md`) hay tự tạo file lẻ (như `chi_tieu_ngay_hom_nay.md`).
-- **Cách nhập liệu:** Tự động gọi script `python finance/scripts/add_expense.py` với tham số đúng theo mẫu trong file `/root/.openclaw/workspace/finance/README.md`. Bắt buộc đọc file `README.md` này trước mỗi khi anh Bình yêu cầu nhập dữ liệu chi tiêu nếu không nhớ cú pháp lệnh.
-
----
-
 ## 🏗️ Dự Án Con Kiến (OpenClaw v0.1)
 - **File gốc:** [Conkien.md](file:///root/.openclaw/workspace/Conkien/Conkien.md) (v1.11 - 10/05/2026).
 - **Mục tiêu:** Thư ký ảo cho quản lý dự án Shane (Anh Bình) qua Zalo Personal.

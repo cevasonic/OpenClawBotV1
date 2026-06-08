@@ -4,77 +4,120 @@
     "report_day": "Friday",
     "report_time": "17:00"
   },
-  "current_balance": 3991000,
+  "current_balance": 4419000,
   "members": {
-    "Anh A": 2000000,
-    "Bạn B": 500000,
     "Anh Danh": 2000000,
-    "Lộc": 2000000
+    "Lộc": 2000000,
+    "Bình": 2000000
   },
   "income_log": [
     {
-      "date": "2026-06-08 10:01:58",
-      "member_name": "Anh A",
-      "amount": 2000000
-    },
-    {
-      "date": "2026-06-08 10:01:58",
-      "member_name": "Bạn B",
-      "amount": 500000
-    },
-    {
-      "date": "2026-06-08 10:11:04",
+      "date": "2026-06-01 10:44:22",
       "member_name": "Anh Danh",
       "amount": 2000000
     },
     {
-      "date": "2026-06-08 10:12:26",
+      "date": "2026-06-01 10:44:22",
       "member_name": "Lộc",
+      "amount": 2000000
+    },
+    {
+      "date": "2026-06-01 10:44:22",
+      "member_name": "Bình",
       "amount": 2000000
     }
   ],
   "expense_log": [
     {
-      "date": "2026-06-08",
-      "created_at": "2026-06-08 10:01:58",
+      "date": "2026-06-01",
+      "created_at": "2026-06-08 10:44:22",
       "category": "Ăn sáng",
-      "amount": 85000,
+      "amount": 35000,
       "note": ""
     },
     {
-      "date": "2026-06-07",
-      "created_at": "2026-06-08 10:01:58",
-      "category": "Ăn trưa",
-      "amount": 180000,
-      "note": ""
-    },
-    {
-      "date": "2026-06-24",
-      "created_at": "2026-06-08 10:01:58",
-      "category": "Ăn tối",
-      "amount": 180000,
-      "note": "ngày /6 180k"
-    },
-    {
-      "date": "2026-06-08",
-      "created_at": "2026-06-08 10:02:05",
-      "category": "Ăn tối",
-      "amount": 1800000,
-      "note": ""
-    },
-    {
-      "date": "2026-06-08",
-      "created_at": "2026-06-08 10:11:50",
-      "category": "Ăn sáng",
-      "amount": 84000,
+      "date": "2026-06-01",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Cà phê",
+      "amount": 55000,
       "note": "sáng"
     },
     {
       "date": "2026-06-01",
-      "created_at": "2026-06-08 10:13:28",
+      "created_at": "2026-06-08 10:44:22",
       "category": "Ăn trưa",
-      "amount": 180000,
-      "note": "Ngày /6 180 ngàn"
+      "amount": 170000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-01",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Ăn tối",
+      "amount": 210000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-02",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Ăn sáng",
+      "amount": 45000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-02",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Cà phê",
+      "amount": 59000,
+      "note": "sáng"
+    },
+    {
+      "date": "2026-06-02",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Ăn trưa",
+      "amount": 150000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-03",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Ăn trưa",
+      "amount": 159000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-03",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Ăn tối",
+      "amount": 450000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-04",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Ăn sáng",
+      "amount": 45000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-04",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Cà phê",
+      "amount": 59000,
+      "note": "sáng"
+    },
+    {
+      "date": "2026-06-08",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Ăn sáng",
+      "amount": 60000,
+      "note": ""
+    },
+    {
+      "date": "2026-06-08",
+      "created_at": "2026-06-08 10:44:22",
+      "category": "Cà phê",
+      "amount": 84000,
+      "note": "sáng"
     }
   ]
 }

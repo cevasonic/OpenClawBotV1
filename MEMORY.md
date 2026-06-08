@@ -67,6 +67,7 @@
 - **2026-05-09:** Kích hoạt skill dự án Con Kiến bằng cách tạo symlink từ `Conkien/skills/` sang `skills/` gốc để OpenClaw có thể nạp được.
 - **2026-05-31:** Khắc phục triệt để lỗi Cron Job Thư viện Pháp luật bằng cách: (1) đặt shebang `/usr/bin/python3` tuyệt đối cho các script, (2) dọn các tệp HTML debug lớn (>300 KB) ra ngoài workspace để tránh quá tải token, và (3) cấu hình model fallbacks cho OpenClaw để tăng độ bền bỉ khi gọi API.
 - **2026-06-07:** Khắc phục triệt để lỗi Cron Job Thư viện Pháp luật (Agent timed out/returns empty response) bằng cách chuyển hẳn công việc sang chạy trực tiếp bằng **System Cron (crontab của Linux)** thay vì chạy qua OpenClaw Agent. Đã viết file script `skills/thuvien/scripts/cron_telegram.sh` để chạy Python cào và gửi kết quả trực tiếp lên Telegram thông qua `curl` (giúp tốn 0 tokens và cực kỳ ổn định). Đồng thời gỡ bỏ cron job cũ khỏi OpenClaw.
+- **2026-06-08:** Tạo và tích hợp skill quản lý quỹ chi tiêu (`thuchi`) bằng script Python tự động để loại bỏ hoàn toàn sai số tính toán, tiết kiệm tối đa token AI. Tích hợp Linux Cron Job tự động gửi báo cáo lúc 17:00 thứ 6 hàng tuần.
 
 ---
 
@@ -89,6 +90,16 @@
   - Tổng quan: `GET https://openrouter.ai/api/v1/credits`
   - Chi tiết: `GET https://openrouter.ai/api/v1/activity?limit=500` (30 ngày gần nhất)
 - **Hiển thị:** Model → Chi phí → % → Requests → Tokens (kèm emoji, phân loại free/paid)
+
+---
+
+## 📊 Thuchi Skill (Quản lý Quỹ & Chi tiêu)
+- **Mô tả:** Quản lý thu chi nội bộ cơ quan, đóng quỹ, chi tiêu ăn uống cafe, cảnh báo số dư < 300k, báo cáo tuần.
+- **Location:** `/root/.openclaw/workspace/skills/thuchi/`
+- **Scripts:**
+  - `scripts/manage_fund.py` - Xử lý tính toán & logic chính.
+  - `scripts/cron_report.sh` - Chạy báo cáo tuần tự động và gửi qua OpenClaw CLI tới Telegram & Zalo.
+- **Data:** `/opt/openclaw/data/fund_management.json` - Lưu trữ số dư và lịch sử giao dịch.
 
 ---
 

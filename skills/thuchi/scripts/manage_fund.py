@@ -8,7 +8,8 @@ import sys
 import re
 import datetime
 
-DATA_PATH = "/opt/openclaw/data/fund_management.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.abspath(os.path.join(SCRIPT_DIR, "../data/fund_management.json"))
 
 def init_db():
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)

@@ -99,7 +99,7 @@
 - **Scripts:**
   - `scripts/manage_fund.py` - Xử lý tính toán & logic chính.
   - `scripts/cron_report.sh` - Chạy báo cáo tuần tự động và gửi qua OpenClaw CLI tới Telegram & Zalo.
-- **Data:** `/opt/openclaw/data/fund_management.json` - Lưu trữ số dư và lịch sử giao dịch.
+- **Data:** `/root/.openclaw/workspace/skills/thuchi/data/fund_management.json` - Lưu trữ số dư và lịch sử giao dịch.
 
 ---
 

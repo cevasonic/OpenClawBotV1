@@ -183,7 +183,10 @@ def clean_text_for_amount(text):
 def classify_intent(text):
     text_lower = text.lower()
     
-    report_keywords = ["báo cáo tuần", "báo cáo quỹ", "tổng kết", "summary", "báo cáo"]
+    report_keywords = [
+        "báo cáo tuần", "báo cáo quỹ", "tổng kết", "summary", "báo cáo",
+        "chi tiêu", "tổng chi", "tổng chi tiêu", "thống kê", "lịch sử chi"
+    ]
     if any(k in text_lower for k in report_keywords):
         return "report"
         
